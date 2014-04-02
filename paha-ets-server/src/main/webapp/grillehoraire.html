@@ -1,0 +1,138 @@
+<html>
+	<head>
+	
+		<!--                                           -->
+		<!-- Any title is fine                         -->
+		<!--                                           -->
+		<title>Planificateur d'horaire</title>
+
+		<!--                                           -->
+		<!-- Use normal html, such as style            -->
+		<!--                                           -->
+		<style>
+			<!--
+			#body,td,a,div,.p{font-family:arial,sans-serif}
+			#div,td{color:#000000}
+			#a:link,.w,.w a:link{color:#0000cc}
+			#a:visited{color:#551a8b}
+			#a:active{color:#ff0000}
+
+.tableheader { background-color: #0a0a30; font-weight: bold; font-size: 14px; color: white; }
+
+.gwt-MenuBar {
+  background-color: #C3D9FF;
+  border: 1px solid #87B3FF;
+  cursor: default;
+}
+
+.gwt-MenuBar .gwt-MenuItem {
+  padding: 1px 4px 1px 4px;
+  font-size: smaller;
+  cursor: default;
+}
+
+.gwt-MenuBar .gwt-MenuItem-selected {
+  background-color: #E8EEF7;
+}
+
+body { background-color: #A9B9CE; }
+.body { background-color: white; font-size: 12px; }
+
+table.body-layout { text-align: center; width: 100%; border-spacing: 2; }
+
+.title { color: white; font-weight: bold; font-size: 25px; }
+
+.headerbar { background-color: #627DA5; color: white; }
+.footerbar { background-color: #627DA5; color: white; }
+
+.messagebox { background-color: yellow; font-size: 14px; }
+.messagebox-error { background-color: red; color: white; font-size: 14px; }
+
+table.hmenubox { background-color: #627DA5; border-spacing: 0; }
+.hmenubox { background-color: white; color: #627DA5; text-align: rigth; }
+.vmenubox { background-color: #627DA5; color: white; text-align: center; }
+
+td.cours { background-color: #BB22BB; color: yellow; font-size: 12px; }
+td.lab { background-color: #627DA5; font-size: 12px; }
+td.tp { background-color: #627DA5; font-size: 12px; }
+td.dispo { background-color: white; font-size: 12px; }
+td.indispo { background-color: #cccccc; font-size: 12px; }
+
+.courschoisi { background-color: #cccccc; color : grey; font-size: 14px; }
+.coursachoisir { background-color: #cccccc; color : green; font-size: 14px; }
+.coursenconflits { background-color: white; color : black; font-size: 14px; text-decoration: line-through }
+
+a { color: #104060; font-weight: normal; text-decoration: none; }
+
+			  -->
+		</style>
+
+		<!--                                           -->
+		<!-- The module reference below is the link    -->
+		<!-- between html and your Web Toolkit module  -->		
+		<!--                                           -->
+		<meta name='gwt:module' content='net.oal.ets.planhoraire.Grillehoraire'>
+		
+	</head>
+
+	<!--                                           -->
+	<!-- The body can have arbitrary html, or      -->
+	<!-- you can leave the body empty if you want  -->
+	<!-- to create a completely dynamic ui         -->
+	<!--                                           -->
+	<body>
+
+		<!--                                            -->
+		<!-- This script is required bootstrap stuff.   -->
+		<!-- You can put it in the HEAD, but startup    -->
+		<!-- is slightly faster if you include it here. -->
+		<!--                                            -->
+		<script language="javascript" src="/net.oal.ets.planhoraire.Grillehoraire/net.oal.ets.planhoraire.Grillehoraire.nocache.js"></script>
+
+		<!-- OPTIONAL: include this if you want history support -->
+		<iframe id="__gwt_historyFrame" style="width:0;height:0;border:0"></iframe>
+
+<script type="text/javascript">window.status = "Loading: ...";</script>
+<table class="body-layout" align="center">
+	<tbody>
+		<tr class="headerbar">
+			<td width="100%">
+			<table width="100%">
+				<tr>
+					<td align="left" width="33%"><img
+						src="http://asso.etsmtl.ca/xoops/themes/aeets/images/logo.gif"
+						border="0" /></td>
+					<th id="title"/>
+					<td align="right" width="33%"><img
+						src="http://asso.etsmtl.ca/xoops/themes/aeets/images/head_left.gif"
+						border="0" /></td>
+				</tr>
+			</table>
+			</td>
+		</tr>
+		<tr class="body">
+			<td width="100%">
+			<table width="100%" cellspacing="2">
+				<tbody>
+					<tr><td colspan="2" id="hmenu"/>
+					<tr>
+						<td id="vmenu" rowspan="2"/>
+						<td id="messagebox"/>
+					</tr>
+					<tr>
+						<td id="content" width="100%"/>
+					</tr>
+				</tbody>
+			</table>
+			<br />
+			<br />
+			</td>
+		</tr>
+		<tr class="footerbar">
+            <td align="center">(c) AEETS 2004-2014<br/>Écrit et maintenu par Olivier Alnet</td>
+		</tr>
+	</tbody>
+</table>
+<script type="text/javascript">window.status = "Done";</script>
+	</body>
+</html>

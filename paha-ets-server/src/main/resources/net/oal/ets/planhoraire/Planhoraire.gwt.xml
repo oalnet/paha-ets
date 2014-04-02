@@ -1,0 +1,9 @@
+<module>
+
+	<!-- Inherit the core Web Toolkit stuff.                  -->
+	<inherits name='com.google.gwt.user.User'/>
+
+	<!-- Specify the app entry point class.                   -->
+	<entry-point class='net.oal.ets.planhoraire.client.Planhoraire'/>
+	<servlet path="/cours.do" class="net.oal.ets.planhoraire.server.CoursServiceImpl"/>   
+</module>
