@@ -244,9 +244,6 @@ public class ImportPDF {
         }
     }
 
-    protected void saveToFile() {
-    }
-
     public static void main(String[] args) {
         InputStream xsltIS = Thread.currentThread().getContextClassLoader().getResourceAsStream("net/oal/paha/horaire-ets-aut2009.xsl");
 

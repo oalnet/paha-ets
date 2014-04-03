@@ -4,7 +4,7 @@
     <display-name>Planificateur d'horaire pour l'ETS</display-name>
 
     <welcome-file-list>
-        <welcome-file>index.html</welcome-file>
+        <welcome-file>planhoraire.html</welcome-file>
     </welcome-file-list>
 
 <!-- Servlet pour la version 3 -->

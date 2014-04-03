@@ -1,5 +1,5 @@
 {
-  "titre": "Baccalauréat en génie de la CONSTRUCTION",
+  "titre": "Baccalauréat en génie",
   "listeCours": {
     "CHM131": {
       "id": "CHM131",
@@ -268,1023 +268,6 @@
         }
       ]
     },
-    "CTN200": {
-      "id": "CTN200",
-      "description": "PLANIFICATION ET CONTRÔLE DES PROJ. DE CONSTRUCTION",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "A-1432"
-              ]
-            },
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1552",
-                "A-1560"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "A-1432"
-              ]
-            },
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1552",
-                "A-1560"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "CTN258": {
-      "id": "CTN258",
-      "description": "STATIQUE ET DYNAMIQUE",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": "Cours"
-            },
-            {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1430"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "5",
-              "heureDebut": "08:45",
-              "heureFin": "11:45",
-              "activite": "TP",
-              "locaux": [
-                "A-1430"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1430"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "CTN300": {
-      "id": "CTN300",
-      "description": "ESTIMATION",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1502",
-                "A-1504"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1502",
-                "A-1504"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1502",
-                "A-1504"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "04",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1502",
-                "A-1504"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "CTN308": {
-      "id": "CTN308",
-      "description": "RÉSISTANCE DES MATÉRIAUX",
-      "listeGroupe": [
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "A-0476"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "CTN326": {
-      "id": "CTN326",
-      "description": "MÉCANIQUE DES FLUIDES ET THERMODYNAMIQUE",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": "Cours"
-            },
-            {
-              "jour": "4",
-              "heureDebut": "08:30",
-              "heureFin": "11:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1470"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "08:30",
-              "heureFin": "12:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1470"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "08:30",
-              "heureFin": "12:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "6",
-              "heureDebut": "08:30",
-              "heureFin": "11:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1470"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "CTN404": {
-      "id": "CTN404",
-      "description": "SCIENCE ET TECHNOLOGIE DES MATÉRIAUX",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "6",
-              "heureDebut": "08:30",
-              "heureFin": "12:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "15:30",
-              "activite": "TP",
-              "locaux": [
-                "A-0450",
-                "A-0510"
-              ]
-            },
-            {
-              "jour": "5",
-              "heureDebut": "15:30",
-              "heureFin": "17:30",
-              "activite": "TP",
-              "locaux": [
-                "A-0450",
-                "A-0510"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "6",
-              "heureDebut": "08:30",
-              "heureFin": "10:30",
-              "activite": "TP",
-              "locaux": [
-                "A-0450",
-                "A-0510"
-              ]
-            },
-            {
-              "jour": "6",
-              "heureDebut": "10:30",
-              "heureFin": "12:30",
-              "activite": "TP",
-              "locaux": [
-                "A-0450",
-                "A-0510"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "CTN408": {
-      "id": "CTN408",
-      "description": "ANALYSE DES STRUCTURES",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "3",
-              "heureDebut": "08:30",
-              "heureFin": "11:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1430",
-                "A-1560"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1430",
-                "A-1560"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "CTN426": {
-      "id": "CTN426",
-      "description": "HYDRAULIQUE ET HYDROLOGIE",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1472"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1472"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": "Cours"
-            },
-            {
-              "jour": "2",
-              "heureDebut": "08:45",
-              "heureFin": "11:45",
-              "activite": "TP",
-              "locaux": [
-                "A-1472"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "CTN504": {
-      "id": "CTN504",
-      "description": "MÉCANIQUE DES SOLS",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "08:30",
-              "heureFin": "12:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1400"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "08:30",
-              "heureFin": "12:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1400"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1400"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "CTN508": {
-      "id": "CTN508",
-      "description": "STRUCTURES DE BÉTON",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP"
-            }
-          ]
-        }
-      ]
-    },
-    "CTN600": {
-      "id": "CTN600",
-      "description": "GESTION DES CONTRATS DE CONSTRUCTION",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "0",
-              "heureDebut": "09:00",
-              "heureFin": "17:00",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "0",
-              "heureDebut": "09:00",
-              "heureFin": "17:00",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "0",
-              "heureDebut": "09:00",
-              "heureFin": "17:00",
-              "activite": "TP"
-            }
-          ]
-        }
-      ]
-    },
-    "CTN626": {
-      "id": "CTN626",
-      "description": "GÉNIE DE L\u0027ENVIRONNEMENT",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": "Cours"
-            },
-            {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "6",
-              "heureDebut": "08:30",
-              "heureFin": "12:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP"
-            }
-          ]
-        }
-      ]
-    },
-    "CTN701": {
-      "id": "CTN701",
-      "description": "RÉALISATION DES PROJETS DE CONSTRUCTION",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "22:00",
-              "activite": "TP"
-            }
-          ]
-        }
-      ]
-    },
-    "CTN705": {
-      "id": "CTN705",
-      "description": "PROJETS INTERNATIONAUX D\u0027INGÉNIERIE DE CONSTRUCTION",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "08:30",
-              "heureFin": "12:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "17:30",
-              "activite": "TP"
-            }
-          ]
-        }
-      ]
-    },
-    "CTN731": {
-      "id": "CTN731",
-      "description": "ENVELOPPE DU BÂTIMENT",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "6",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "17:30",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": "Cours"
-            },
-            {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "17:30",
-              "activite": "TP"
-            }
-          ]
-        }
-      ]
-    },
-    "CTN732": {
-      "id": "CTN732",
-      "description": "SYSTÈMES MÉCANIQUES DU BÂTIMENT",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "22:00",
-              "activite": "TP"
-            }
-          ]
-        }
-      ]
-    },
-    "CTN741": {
-      "id": "CTN741",
-      "description": "FONDATIONS",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "08:30",
-              "heureFin": "12:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "5",
-              "heureDebut": "08:45",
-              "heureFin": "12:45",
-              "activite": "TP",
-              "locaux": [
-                "A-1432"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "CTN761": {
-      "id": "CTN761",
-      "description": "HYDRAULIQUE URBAINE",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": "Cours"
-            },
-            {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "17:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1432"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "CTN762": {
-      "id": "CTN762",
-      "description": "RESSOURCES HYDRIQUES",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "15:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1552",
-                "A-1560"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "CTN763": {
-      "id": "CTN763",
-      "description": "SERVICES MUNICIPAUX",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "22:00",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "22:00",
-              "activite": "TP"
-            }
-          ]
-        }
-      ]
-    },
-    "CTN772": {
-      "id": "CTN772",
-      "description": "ENTRETIEN, RÉHABILITATION ET GESTION DES ROUTES",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": "Cours"
-            },
-            {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "17:30",
-              "activite": "TP"
-            }
-          ]
-        }
-      ]
-    },
-    "CTN773": {
-      "id": "CTN773",
-      "description": "TRACÉS DE ROUTES",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "6",
-              "heureDebut": "18:00",
-              "heureFin": "22:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1552",
-                "A-1560"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "CTN785": {
-      "id": "CTN785",
-      "description": "ANALYSE ET CONCEPTION DES STRUCTURES",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP"
-            }
-          ]
-        }
-      ]
-    },
-    "CTN791": {
-      "id": "CTN791",
-      "description": "PROJETS SPÉCIAUX"
-    },
-    "CTN792": {
-      "id": "CTN792",
-      "description": "PROJET DE FIN D\u0027ÉTUDES EN GÉNIE DE LA CONSTRUCTION"
-    },
-    "CTN796": {
-      "id": "CTN796",
-      "description": "PROJET INTERNAT. FIN D\u0027ÉTUDES EN GÉNIE CONSTRUCTION"
-    },
     "FRA150": {
       "id": "FRA150",
       "description": "FRANÇAIS ÉCRIT",
@@ -1336,159 +319,6 @@
       "description": "ANALYSE DE RENTABILITÉ DE PROJETS",
       "listeGroupe": [
         {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "2",
-              "heureDebut": "08:30",
-              "heureFin": "12:30",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "17:30",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "5",
-              "heureDebut": "08:30",
-              "heureFin": "12:30",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "04",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "6",
-              "heureDebut": "08:30",
-              "heureFin": "12:30",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "05",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "3",
-              "heureDebut": "08:30",
-              "heureFin": "12:30",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "06",
-          "listePeriodes": [
-            {
-              "jour": "6",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "17:30",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "07",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "20:00",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "08",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "17:30",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "09",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "20:00",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
           "id": "10",
           "listePeriodes": [
             {
@@ -1507,29 +337,515 @@
         }
       ]
     },
-    "INF130": {
-      "id": "INF130",
-      "description": "ORDINATEURS ET PROGRAMMATION",
+    "GIA601": {
+      "id": "GIA601",
+      "description": "ERGONOMIE ET SÉCURITÉ EN MILIEU DE TRAVAIL",
       "listeGroupe": [
         {
           "id": "01",
           "listePeriodes": [
             {
               "jour": "3",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "5",
+              "heureDebut": "18:00",
+              "heureFin": "20:00",
+              "activite": "TP",
               "locaux": [
-                "B-2406"
+                "A-1226",
+                "A-2230"
               ]
             },
             {
               "jour": "5",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
+              "heureDebut": "20:00",
+              "heureFin": "22:00",
+              "activite": "TP",
+              "locaux": [
+                "A-1226",
+                "A-2230"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "GPE450": {
+      "id": "GPE450",
+      "description": "GESTION DU PERSONNEL ET RELATIONS INDUSTRIELLES",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "5",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
+            },
+            {
+              "jour": "2",
+              "heureDebut": "15:30",
+              "heureFin": "17:30",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "02",
+          "listePeriodes": [
+            {
+              "jour": "2",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "5",
+              "heureDebut": "18:00",
+              "heureFin": "20:00",
+              "activite": "TP"
+            }
+          ]
+        }
+      ]
+    },
+    "GTI350": {
+      "id": "GTI350",
+      "description": "CONCEPTION ET ÉVALUATION DES INTERFACES UTILISATEURS",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "5",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "3",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
               "activite": "Lab",
               "locaux": [
-                "B-2406"
+                "A-3412"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "GTI410": {
+      "id": "GTI410",
+      "description": "APPLICATIONS DES TECHNIQUES NUMÉR.EN GRAPH. ET IMAG.",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "5",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
+            },
+            {
+              "jour": "2",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "Lab",
+              "locaux": [
+                "A-3412"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "GTI510": {
+      "id": "GTI510",
+      "description": "GESTION DE PROJETS ET ASSURANCE DE LA QUALITÉ",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "5",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "3",
+              "heureDebut": "18:00",
+              "heureFin": "20:00",
+              "activite": "Lab",
+              "locaux": [
+                "A-3322"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "GTI515": {
+      "id": "GTI515",
+      "description": "SYSTÈMES D\u0027INFORMATION DANS LES ENTREPRISES",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "4",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "2",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
+              "activite": "Lab",
+              "locaux": [
+                "A-3322"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "GTI525": {
+      "id": "GTI525",
+      "description": "TECHNOLOGIES DE DÉVELOPPEMENT INTERNET",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "5",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "3",
+              "heureDebut": "18:00",
+              "heureFin": "20:00",
+              "activite": "Lab",
+              "locaux": [
+                "A-3326"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "GTI610": {
+      "id": "GTI610",
+      "description": "RÉSEAUX DE TÉLÉCOMMUNICATION",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "3",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
+            },
+            {
+              "jour": "6",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "Lab",
+              "locaux": [
+                "A-3322"
+              ]
+            },
+            {
+              "jour": "6",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "Lab",
+              "locaux": [
+                "A-3324"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "GTI660": {
+      "id": "GTI660",
+      "description": "BASES DE DONNÉES MULTIMÉDIAS",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "6",
+              "heureDebut": "08:45",
+              "heureFin": "12:15",
+              "activite": "Cours"
+            },
+            {
+              "jour": "4",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "Lab",
+              "locaux": [
+                "A-3322"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "GTI770": {
+      "id": "GTI770",
+      "description": "SYSTÈMES INTELLIGENTS ET APPRENTISSAGE MACHINE",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "4",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
+            },
+            {
+              "jour": "6",
+              "heureDebut": "08:45",
+              "heureFin": "10:45",
+              "activite": "Lab",
+              "locaux": [
+                "A-3326"
+              ]
+            },
+            {
+              "jour": "6",
+              "heureDebut": "10:45",
+              "heureFin": "12:45",
+              "activite": "Lab",
+              "locaux": [
+                "A-3326"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "GTI780": {
+      "id": "GTI780",
+      "description": "SUJETS ÉMERGENTS EN TECHNOLOGIES DE L\u0027INFORMATION",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "4",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "2",
+              "heureDebut": "18:00",
+              "heureFin": "20:00",
+              "activite": "Lab",
+              "locaux": [
+                "A-3326"
+              ]
+            },
+            {
+              "jour": "2",
+              "heureDebut": "20:00",
+              "heureFin": "22:00",
+              "activite": "Lab",
+              "locaux": [
+                "A-3326"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "GTI785": {
+      "id": "GTI785",
+      "description": "SYSTÈMES D\u0027APPLICATIONS MOBILES",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "3",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "5",
+              "heureDebut": "18:00",
+              "heureFin": "20:00",
+              "activite": "Lab",
+              "locaux": [
+                "A-3324"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "GTI791": {
+      "id": "GTI791",
+      "description": "PROJETS SPÉCIAUX"
+    },
+    "GTI792": {
+      "id": "GTI792",
+      "description": "PROJET DE FIN D\u0027ÉTUDES EN GÉNIE DES TECHNOLOGIES DE"
+    },
+    "INF111": {
+      "id": "INF111",
+      "description": "PROGRAMMATION ORIENTÉE-OBJET (HORS PROGRAMME)",
+      "listeGroupe": [
+        {
+          "id": "80",
+          "listePeriodes": [
+            {
+              "jour": "2",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "4",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
+              "activite": "Lab",
+              "locaux": [
+                "B-2402"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "ING150": {
+      "id": "ING150",
+      "description": "STATIQUE ET DYNAMIQUE",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "2",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "4",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "02",
+          "listePeriodes": [
+            {
+              "jour": "5",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
+            },
+            {
+              "jour": "2",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "03",
+          "listePeriodes": [
+            {
+              "jour": "3",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "5",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "04",
+          "listePeriodes": [
+            {
+              "jour": "6",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "4",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "05",
+          "listePeriodes": [
+            {
+              "jour": "5",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "3",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
+            }
+          ]
+        }
+      ]
+    },
+    "ING160": {
+      "id": "ING160",
+      "description": "THERMODYNAMIQUE ET MÉCANIQUE DES FLUIDES",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "2",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
+            },
+            {
+              "jour": "5",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP",
+              "locaux": [
+                "A-1470"
               ]
             }
           ]
@@ -1539,20 +855,17 @@
           "listePeriodes": [
             {
               "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-2406"
-              ]
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
             },
             {
               "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "Lab",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP",
               "locaux": [
-                "B-2406"
+                "A-1470"
               ]
             }
           ]
@@ -1561,21 +874,18 @@
           "id": "03",
           "listePeriodes": [
             {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-2406"
-              ]
+              "jour": "4",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
             },
             {
               "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "Lab",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
+              "activite": "TP",
               "locaux": [
-                "B-2406"
+                "A-1470"
               ]
             }
           ]
@@ -1584,44 +894,180 @@
           "id": "04",
           "listePeriodes": [
             {
-              "jour": "2",
+              "jour": "6",
               "heureDebut": "09:00",
               "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-2406"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP",
+              "locaux": [
+                "A-1470"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "LOG121": {
+      "id": "LOG121",
+      "description": "CONCEPTION ORIENTÉE OBJET",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "4",
+              "heureDebut": "08:45",
+              "heureFin": "12:15",
+              "activite": "Cours"
+            },
+            {
+              "jour": "2",
+              "heureDebut": "08:30",
+              "heureFin": "11:30",
               "activite": "Lab",
               "locaux": [
-                "B-2406"
+                "A-3412"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "LOG210": {
+      "id": "LOG210",
+      "description": "ANALYSE ET CONCEPTION DE LOGICIELS",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "4",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
+            },
+            {
+              "jour": "6",
+              "heureDebut": "08:45",
+              "heureFin": "11:45",
+              "activite": "Lab",
+              "locaux": [
+                "A-3324"
+              ]
+            },
+            {
+              "jour": "6",
+              "heureDebut": "08:45",
+              "heureFin": "11:45",
+              "activite": "Lab",
+              "locaux": [
+                "A-4420"
               ]
             }
           ]
         },
         {
-          "id": "05",
+          "id": "02",
           "listePeriodes": [
             {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-2406"
-              ]
+              "jour": "6",
+              "heureDebut": "08:45",
+              "heureFin": "12:15",
+              "activite": "Cours"
             },
             {
-              "jour": "6",
+              "jour": "4",
               "heureDebut": "13:30",
               "heureFin": "16:30",
               "activite": "Lab",
               "locaux": [
-                "B-2406"
+                "A-3326"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "LOG430": {
+      "id": "LOG430",
+      "description": "ARCHITECTURE LOGICIELLE",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "4",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
+            },
+            {
+              "jour": "6",
+              "heureDebut": "08:45",
+              "heureFin": "11:45",
+              "activite": "Lab",
+              "locaux": [
+                "A-3322"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "02",
+          "listePeriodes": [
+            {
+              "jour": "6",
+              "heureDebut": "08:45",
+              "heureFin": "12:15",
+              "activite": "Cours"
+            },
+            {
+              "jour": "4",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "Lab",
+              "locaux": [
+                "A-3324"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "LOG735": {
+      "id": "LOG735",
+      "description": "SYSTÈMES DISTRIBUÉS",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "3",
+              "heureDebut": "08:45",
+              "heureFin": "12:15",
+              "activite": "Cours"
+            },
+            {
+              "jour": "5",
+              "heureDebut": "08:30",
+              "heureFin": "10:30",
+              "activite": "Lab",
+              "locaux": [
+                "A-3322"
+              ]
+            },
+            {
+              "jour": "5",
+              "heureDebut": "10:30",
+              "heureFin": "12:30",
+              "activite": "Lab",
+              "locaux": [
+                "A-3322"
               ]
             }
           ]
@@ -1673,58 +1119,18 @@
       "description": "CALCUL DIFFÉRENTIEL ET INTÉGRAL",
       "listeGroupe": [
         {
-          "id": "06",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP"
-            }
-          ]
-        }
-      ]
-    },
-    "MAT165": {
-      "id": "MAT165",
-      "description": "ALGÈBRE LINÉAIRE ET ANALYSE VECTORIELLE",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "3",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
           "id": "02",
           "listePeriodes": [
             {
-              "jour": "4",
+              "jour": "3",
               "heureDebut": "13:30",
               "heureFin": "17:00",
               "activite": "Cours"
             },
             {
               "jour": "6",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
               "activite": "TP"
             }
           ]
@@ -1733,13 +1139,13 @@
           "id": "03",
           "listePeriodes": [
             {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
+              "jour": "6",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
               "activite": "Cours"
             },
             {
-              "jour": "6",
+              "jour": "4",
               "heureDebut": "13:30",
               "heureFin": "16:30",
               "activite": "TP"
@@ -1750,15 +1156,15 @@
           "id": "04",
           "listePeriodes": [
             {
-              "jour": "2",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
+              "jour": "4",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
               "activite": "Cours"
             },
             {
-              "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
+              "jour": "2",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
               "activite": "TP"
             }
           ]
@@ -1767,13 +1173,13 @@
           "id": "05",
           "listePeriodes": [
             {
-              "jour": "5",
+              "jour": "2",
               "heureDebut": "13:30",
               "heureFin": "17:00",
               "activite": "Cours"
             },
             {
-              "jour": "2",
+              "jour": "5",
               "heureDebut": "13:30",
               "heureFin": "16:30",
               "activite": "TP"
@@ -1784,66 +1190,15 @@
           "id": "06",
           "listePeriodes": [
             {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "07",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours"
-            },
-            {
-              "jour": "5",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "08",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours"
-            },
-            {
               "jour": "2",
               "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP"
-            }
-          ]
-        },
-        {
-          "id": "09",
-          "listePeriodes": [
-            {
-              "jour": "6",
-              "heureDebut": "09:00",
               "heureFin": "12:30",
               "activite": "Cours"
             },
             {
               "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
               "activite": "TP"
             }
           ]
@@ -2031,6 +1386,125 @@
       "description": "PROBABILITÉS ET STATISTIQUES",
       "listeGroupe": [
         {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "2",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "4",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "02",
+          "listePeriodes": [
+            {
+              "jour": "5",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "3",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "03",
+          "listePeriodes": [
+            {
+              "jour": "5",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
+            },
+            {
+              "jour": "2",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "04",
+          "listePeriodes": [
+            {
+              "jour": "4",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
+            },
+            {
+              "jour": "6",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "05",
+          "listePeriodes": [
+            {
+              "jour": "3",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "5",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "06",
+          "listePeriodes": [
+            {
+              "jour": "2",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "4",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "07",
+          "listePeriodes": [
+            {
+              "jour": "2",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
+            },
+            {
+              "jour": "5",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
           "id": "08",
           "listePeriodes": [
             {
@@ -2100,10 +1574,73 @@
         }
       ]
     },
+    "MAT415": {
+      "id": "MAT415",
+      "description": "MATHÉMATIQUES DU GÉNIE DES TI",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "4",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "2",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
+              "activite": "TP"
+            }
+          ]
+        }
+      ]
+    },
+    "MAT472": {
+      "id": "MAT472",
+      "description": "ALGÈBRE LINÉAIRE ET GÉOMÉTRIE DE L\u0027ESPACE",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "2",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "4",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
+              "activite": "TP"
+            }
+          ]
+        }
+      ]
+    },
     "PHY144": {
       "id": "PHY144",
       "description": "INTRODUCTION À LA PHYSIQUE DU GÉNIE (HORS PROGRAMME)",
       "listeGroupe": [
+        {
+          "id": "80",
+          "listePeriodes": [
+            {
+              "jour": "2",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "4",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
+              "activite": "TP"
+            }
+          ]
+        },
         {
           "id": "81",
           "listePeriodes": [
@@ -2387,23 +1924,6 @@
               "activite": "TP"
             }
           ]
-        },
-        {
-          "id": "09",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours"
-            },
-            {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP"
-            }
-          ]
         }
       ]
     },
@@ -2411,6 +1931,21 @@
       "id": "PRE010",
       "description": "INIT. AU MILIEU INDUS., SANTÉ ET SÉCURITÉ AU TRAVAIL",
       "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "6",
+              "heureDebut": "18:00",
+              "heureFin": "21:00"
+            },
+            {
+              "jour": "0",
+              "heureDebut": "09:00",
+              "heureFin": "16:00"
+            }
+          ]
+        },
         {
           "id": "02",
           "listePeriodes": [
@@ -2435,6 +1970,40 @@
       "id": "TIN501",
       "description": "ENVIRONNEMENT, TECHNOLOGIE ET SOCIÉTÉ",
       "listeGroupe": [
+        {
+          "id": "02",
+          "listePeriodes": [
+            {
+              "jour": "4",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "2",
+              "heureDebut": "08:30",
+              "heureFin": "12:30",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "03",
+          "listePeriodes": [
+            {
+              "jour": "6",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "4",
+              "heureDebut": "13:30",
+              "heureFin": "17:30",
+              "activite": "TP"
+            }
+          ]
+        },
         {
           "id": "04",
           "listePeriodes": [
@@ -2506,7 +2075,7 @@
       ]
     }
   },
-  "url": "http://etsmtl.ca/Etudiants-actuels/Baccalaureat/Cours-horaires-1er-cycle/Horaire-cours/Anciens/Ete/hor_CTN.pdf",
-  "id": "Été 2014 - Génie de la construction",
-  "date": "Apr 2, 2014 11:03:21 PM"
+  "url": "http://etsmtl.ca/Etudiants-actuels/Baccalaureat/Cours-horaires-1er-cycle/Horaire-cours/Anciens/Ete/hor_GTI.pdf",
+  "id": "Été 2014 - Génie des technologies de l information",
+  "date": "Apr 2, 2014 11:09:21 PM"
 }

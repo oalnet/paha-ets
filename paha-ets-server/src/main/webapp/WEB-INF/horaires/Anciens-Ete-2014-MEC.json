@@ -1,54 +1,6 @@
 {
-  "titre": "7884 : Baccalauréat en génie mécanique",
+  "titre": "Baccalauréat en génie MÉCANIQUE",
   "listeCours": {
-    "ANG010": {
-      "id": "ANG010",
-      "description": "ANGLAIS POUR INGÉNIEURS I",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1716"
-              ]
-            },
-            {
-              "jour": "6",
-              "heureDebut": "18:00",
-              "heureFin": "20:00",
-              "activite": "TP",
-              "locaux": [
-                "B-3422"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "ATE050": {
-      "id": "ATE050",
-      "description": "RÉUSSIR EN GÉNIE",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "20:00",
-              "locaux": [
-                "B-3410"
-              ]
-            }
-          ]
-        }
-      ]
-    },
     "CHM131": {
       "id": "CHM131",
       "description": "CHIMIE ET MATÉRIAUX",
@@ -60,19 +12,13 @@
               "jour": "2",
               "heureDebut": "09:00",
               "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1716"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "4",
               "heureDebut": "09:00",
               "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1716"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -81,21 +27,15 @@
           "listePeriodes": [
             {
               "jour": "3",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-2622"
-              ]
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "5",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-3406"
-              ]
+              "jour": "6",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP"
             }
           ]
         },
@@ -103,22 +43,16 @@
           "id": "03",
           "listePeriodes": [
             {
-              "jour": "5",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3416"
-              ]
+              "jour": "4",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "3",
+              "jour": "6",
               "heureDebut": "09:00",
               "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-3402"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -126,22 +60,16 @@
           "id": "04",
           "listePeriodes": [
             {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-2622"
-              ]
+              "jour": "5",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
             },
             {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-1706"
-              ]
+              "jour": "3",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
             }
           ]
         },
@@ -149,22 +77,16 @@
           "id": "05",
           "listePeriodes": [
             {
-              "jour": "3",
+              "jour": "5",
               "heureDebut": "13:30",
               "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-3402"
-              ]
+              "activite": "Cours"
             },
             {
-              "jour": "6",
+              "jour": "2",
               "heureDebut": "13:30",
               "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-1706"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -172,22 +94,16 @@
           "id": "06",
           "listePeriodes": [
             {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1404"
-              ]
+              "jour": "2",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
             },
             {
-              "jour": "6",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-3416"
-              ]
+              "jour": "4",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
+              "activite": "TP"
             }
           ]
         },
@@ -196,21 +112,15 @@
           "listePeriodes": [
             {
               "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-4416"
-              ]
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
             },
             {
-              "jour": "6",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "B-3406"
-              ]
+              "jour": "2",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
             }
           ]
         },
@@ -221,19 +131,13 @@
               "jour": "5",
               "heureDebut": "18:00",
               "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1708"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "3",
               "heureDebut": "18:00",
               "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1516"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -241,22 +145,16 @@
           "id": "09",
           "listePeriodes": [
             {
-              "jour": "6",
+              "jour": "3",
               "heureDebut": "09:00",
               "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1518"
-              ]
+              "activite": "Cours"
             },
             {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-3402"
-              ]
+              "jour": "5",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
             }
           ]
         },
@@ -264,166 +162,16 @@
           "id": "10",
           "listePeriodes": [
             {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1518"
-              ]
-            },
-            {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-1708"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "11",
-          "listePeriodes": [
-            {
               "jour": "2",
               "heureDebut": "13:30",
               "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1706"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "5",
               "heureDebut": "13:30",
               "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-2622"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "12",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3406"
-              ]
-            },
-            {
-              "jour": "2",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1404"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "13",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-3416"
-              ]
-            },
-            {
-              "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-3402"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "14",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1718"
-              ]
-            },
-            {
-              "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1404"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "15",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3416"
-              ]
-            },
-            {
-              "jour": "5",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "A-2448"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "COM115": {
-      "id": "COM115",
-      "description": "COMMUNICATION INTERCULTURELLE",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1516"
-              ]
-            },
-            {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "17:30",
-              "activite": "TP",
-              "locaux": [
-                "B-3404"
-              ]
+              "activite": "TP"
             }
           ]
         }
@@ -440,42 +188,13 @@
               "jour": "2",
               "heureDebut": "13:30",
               "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-3406"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "5",
               "heureDebut": "13:30",
               "heureFin": "17:30",
-              "activite": "TP",
-              "locaux": [
-                "B-3404"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1514"
-              ]
-            },
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "22:00",
-              "activite": "TP",
-              "locaux": [
-                "B-3408"
-              ]
+              "activite": "TP"
             }
           ]
         }
@@ -489,22 +208,16 @@
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3432"
-              ]
+              "jour": "3",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "20:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1708"
-              ]
+              "jour": "6",
+              "heureDebut": "13:30",
+              "heureFin": "15:30",
+              "activite": "TP"
             }
           ]
         }
@@ -518,22 +231,16 @@
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3406"
-              ]
+              "jour": "3",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "22:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1518"
-              ]
+              "jour": "6",
+              "heureDebut": "13:30",
+              "heureFin": "17:30",
+              "activite": "TP"
             }
           ]
         }
@@ -544,25 +251,70 @@
       "description": "ANALYSE DE RENTABILITÉ DE PROJETS",
       "listeGroupe": [
         {
-          "id": "04",
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "4",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "2",
+              "heureDebut": "08:30",
+              "heureFin": "12:30",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "02",
+          "listePeriodes": [
+            {
+              "jour": "5",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
+            },
+            {
+              "jour": "2",
+              "heureDebut": "13:30",
+              "heureFin": "17:30",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "03",
           "listePeriodes": [
             {
               "jour": "3",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "5",
+              "heureDebut": "08:30",
+              "heureFin": "12:30",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "04",
+          "listePeriodes": [
+            {
+              "jour": "4",
               "heureDebut": "13:30",
               "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-0906"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "17:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1170"
-              ]
+              "heureDebut": "08:30",
+              "heureFin": "12:30",
+              "activite": "TP"
             }
           ]
         },
@@ -571,21 +323,15 @@
           "listePeriodes": [
             {
               "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-0904"
-              ]
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
             },
             {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "17:30",
-              "activite": "TP",
-              "locaux": [
-                "B-4416"
-              ]
+              "jour": "3",
+              "heureDebut": "08:30",
+              "heureFin": "12:30",
+              "activite": "TP"
             }
           ]
         },
@@ -593,22 +339,16 @@
           "id": "06",
           "listePeriodes": [
             {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-0908"
-              ]
+              "jour": "6",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
             },
             {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "20:00",
-              "activite": "TP",
-              "locaux": [
-                "B-0906"
-              ]
+              "jour": "4",
+              "heureDebut": "13:30",
+              "heureFin": "17:30",
+              "activite": "TP"
             }
           ]
         },
@@ -616,22 +356,16 @@
           "id": "07",
           "listePeriodes": [
             {
-              "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-0904"
-              ]
+              "jour": "5",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
             },
             {
-              "jour": "2",
-              "heureDebut": "08:30",
-              "heureFin": "12:30",
-              "activite": "TP",
-              "locaux": [
-                "B-3420"
-              ]
+              "jour": "3",
+              "heureDebut": "18:00",
+              "heureFin": "20:00",
+              "activite": "TP"
             }
           ]
         },
@@ -639,22 +373,16 @@
           "id": "08",
           "listePeriodes": [
             {
-              "jour": "6",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-0904"
-              ]
+              "jour": "3",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "4",
+              "jour": "6",
               "heureDebut": "13:30",
               "heureFin": "17:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1160"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -665,19 +393,13 @@
               "jour": "3",
               "heureDebut": "18:00",
               "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-0904"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "5",
               "heureDebut": "18:00",
               "heureFin": "20:00",
-              "activite": "TP",
-              "locaux": [
-                "B-0906"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -688,19 +410,13 @@
               "jour": "2",
               "heureDebut": "18:00",
               "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-0904"
-              ]
+              "activite": "Cours"
             },
             {
-              "jour": "6",
+              "jour": "4",
               "heureDebut": "18:00",
               "heureFin": "20:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1506"
-              ]
+              "activite": "TP"
             }
           ]
         }
@@ -714,66 +430,29 @@
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
+              "jour": "3",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "5",
+              "heureDebut": "18:00",
+              "heureFin": "20:00",
+              "activite": "TP",
               "locaux": [
-                "B-3418"
+                "A-1226",
+                "A-2230"
               ]
             },
             {
               "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "15:30",
+              "heureDebut": "20:00",
+              "heureFin": "22:00",
               "activite": "TP",
               "locaux": [
-                "A-1240",
-                "A-1220"
-              ]
-            },
-            {
-              "jour": "5",
-              "heureDebut": "15:30",
-              "heureFin": "17:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1240",
-                "A-1220"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-3414"
-              ]
-            },
-            {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "15:30",
-              "activite": "TP",
-              "locaux": [
-                "A-4406",
-                "A-1220"
-              ]
-            },
-            {
-              "jour": "2",
-              "heureDebut": "15:30",
-              "heureFin": "17:30",
-              "activite": "TP",
-              "locaux": [
-                "A-4406",
-                "A-1220"
+                "A-1226",
+                "A-2230"
               ]
             }
           ]
@@ -788,22 +467,16 @@
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "3",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": "Cours",
-              "locaux": [
-                "A-1160"
-              ]
+              "jour": "5",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "5",
-              "heureDebut": "08:30",
-              "heureFin": "10:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1160"
-              ]
+              "jour": "2",
+              "heureDebut": "15:30",
+              "heureFin": "17:30",
+              "activite": "TP"
             }
           ]
         },
@@ -814,106 +487,38 @@
               "jour": "2",
               "heureDebut": "18:00",
               "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "A-1150"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "5",
               "heureDebut": "18:00",
               "heureFin": "20:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1504"
-              ]
+              "activite": "TP"
             }
           ]
         }
       ]
     },
-    "GPO602": {
-      "id": "GPO602",
-      "description": "ÉVALUATION ET CONTRÔLE DE L\u0027ENVIRONNEMENT INDUSTRIEL",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "6",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": "Cours",
-              "locaux": [
-                "B-3420"
-              ]
-            },
-            {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "15:30",
-              "activite": "TP",
-              "locaux": [
-                "A-4406",
-                "A-1220"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "GTS503": {
-      "id": "GTS503",
-      "description": "TECHNOLOGIES DE LA SANTÉ, NORMES ET HOMOLOGATION",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": "Cours",
-              "locaux": [
-                "B-1510"
-              ]
-            },
-            {
-              "jour": "3",
-              "heureDebut": "08:30",
-              "heureFin": "10:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1214"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "GTS602": {
-      "id": "GTS602",
-      "description": "CONCEPTION D\u0027ORTHÈSES ET DE PROTHÈSES",
+    "GPO661": {
+      "id": "GPO661",
+      "description": "GESTION ET ASSURANCE DE LA QUALITÉ",
       "listeGroupe": [
         {
           "id": "01",
           "listePeriodes": [
             {
               "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "A-4408"
-              ]
+              "heureDebut": "08:30",
+              "heureFin": "12:00",
+              "activite": "Cours"
             },
             {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "15:30",
-              "activite": "Lab",
+              "jour": "4",
+              "heureDebut": "08:30",
+              "heureFin": "10:30",
+              "activite": "TP",
               "locaux": [
-                "A-1222"
+                "A-1214"
               ]
             }
           ]
@@ -937,7 +542,6 @@
               "heureFin": "12:30",
               "activite": "Cours",
               "locaux": [
-                "B-3414",
                 "B-2408"
               ]
             },
@@ -947,7 +551,7 @@
               "heureFin": "12:00",
               "activite": "Lab",
               "locaux": [
-                "B-2406"
+                "B-2408"
               ]
             }
           ]
@@ -961,8 +565,7 @@
               "heureFin": "21:30",
               "activite": "Cours",
               "locaux": [
-                "B-2622",
-                "B-2408"
+                "B-2406"
               ]
             },
             {
@@ -980,70 +583,21 @@
           "id": "03",
           "listePeriodes": [
             {
-              "jour": "6",
+              "jour": "4",
               "heureDebut": "13:30",
               "heureFin": "17:00",
               "activite": "Cours",
               "locaux": [
-                "B-3416",
-                "B-2408"
-              ]
-            },
-            {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "Lab",
-              "locaux": [
                 "B-2406"
               ]
-            }
-          ]
-        },
-        {
-          "id": "04",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1510",
-                "B-2624"
-              ]
             },
             {
-              "jour": "2",
+              "jour": "6",
               "heureDebut": "09:00",
               "heureFin": "12:00",
               "activite": "Lab",
               "locaux": [
-                "B-2624"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "05",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1716",
-                "B-2624"
-              ]
-            },
-            {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "Lab",
-              "locaux": [
-                "B-2624"
+                "B-2406"
               ]
             }
           ]
@@ -1055,71 +609,36 @@
       "description": "INTRODUCTION AUX MATHÉMATIQUES DU GÉNIE (HORS PROG.)",
       "listeGroupe": [
         {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1708"
-              ]
-            },
-            {
-              "jour": "5",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1404"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "02",
+          "id": "80",
           "listePeriodes": [
             {
               "jour": "2",
               "heureDebut": "13:30",
               "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1404"
-              ]
+              "activite": "Cours"
             },
             {
-              "jour": "5",
+              "jour": "4",
               "heureDebut": "13:30",
               "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-3406"
-              ]
+              "activite": "TP"
             }
           ]
         },
         {
-          "id": "03",
+          "id": "81",
           "listePeriodes": [
             {
-              "jour": "2",
+              "jour": "3",
               "heureDebut": "18:00",
               "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-4408"
-              ]
+              "activite": "Cours"
             },
             {
-              "jour": "4",
+              "jour": "5",
               "heureDebut": "18:00",
               "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1404"
-              ]
+              "activite": "TP"
             }
           ]
         }
@@ -1136,19 +655,13 @@
               "jour": "3",
               "heureDebut": "09:00",
               "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3414"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "5",
               "heureDebut": "09:00",
               "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-3422"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -1157,21 +670,15 @@
           "listePeriodes": [
             {
               "jour": "3",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-4416"
-              ]
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "5",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "A-4660"
-              ]
+              "jour": "6",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP"
             }
           ]
         },
@@ -1179,22 +686,16 @@
           "id": "03",
           "listePeriodes": [
             {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-3422"
-              ]
+              "jour": "6",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
             },
             {
-              "jour": "5",
+              "jour": "4",
               "heureDebut": "13:30",
               "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-1716"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -1202,22 +703,16 @@
           "id": "04",
           "listePeriodes": [
             {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-3432"
-              ]
+              "jour": "4",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
             },
             {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-1404"
-              ]
+              "jour": "2",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
+              "activite": "TP"
             }
           ]
         },
@@ -1225,22 +720,16 @@
           "id": "05",
           "listePeriodes": [
             {
-              "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3416"
-              ]
+              "jour": "2",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "2",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-3416"
-              ]
+              "jour": "5",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP"
             }
           ]
         },
@@ -1248,183 +737,16 @@
           "id": "06",
           "listePeriodes": [
             {
-              "jour": "6",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1404"
-              ]
-            },
-            {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-3414"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "07",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1706"
-              ]
-            },
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1518"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "08",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1502"
-              ]
-            },
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1514"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "09",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1716"
-              ]
-            },
-            {
-              "jour": "3",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-3406"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "10",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-3406"
-              ]
-            },
-            {
-              "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-2622"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "11",
-          "listePeriodes": [
-            {
               "jour": "2",
               "heureDebut": "09:00",
               "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3422"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "4",
               "heureDebut": "09:00",
               "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1718"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "12",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-3416"
-              ]
-            },
-            {
-              "jour": "6",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-3402"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "13",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-3402"
-              ]
-            },
-            {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-3402"
-              ]
+              "activite": "TP"
             }
           ]
         }
@@ -1435,278 +757,19 @@
       "description": "ALGÈBRE LINÉAIRE ET ANALYSE VECTORIELLE",
       "listeGroupe": [
         {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-4408"
-              ]
-            },
-            {
-              "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-4410"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-4408"
-              ]
-            },
-            {
-              "jour": "3",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-4408"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1502"
-              ]
-            },
-            {
-              "jour": "2",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-4410"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "04",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1506"
-              ]
-            },
-            {
-              "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-1502"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "05",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-4410"
-              ]
-            },
-            {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-4408"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "06",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-4410"
-              ]
-            },
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "B-4410"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "07",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-3428"
-              ]
-            },
-            {
-              "jour": "6",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1502"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "08",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3428"
-              ]
-            },
-            {
-              "jour": "5",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-3428"
-              ]
-            }
-          ]
-        },
-        {
           "id": "09",
           "listePeriodes": [
             {
               "jour": "6",
               "heureDebut": "09:00",
               "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1516"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "4",
               "heureDebut": "13:30",
               "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-1706"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "10",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3428"
-              ]
-            },
-            {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "B-3428"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "11",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1504"
-              ]
-            },
-            {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-1504"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "12",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1514"
-              ]
-            },
-            {
-              "jour": "2",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1708"
-              ]
+              "activite": "TP"
             }
           ]
         }
@@ -1717,25 +780,104 @@
       "description": "ÉQUATIONS DIFFÉRENTIELLES",
       "listeGroupe": [
         {
-          "id": "06",
+          "id": "01",
           "listePeriodes": [
             {
               "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1506"
-              ]
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "2",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "02",
+          "listePeriodes": [
+            {
+              "jour": "6",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "4",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "03",
+          "listePeriodes": [
+            {
+              "jour": "3",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
               "jour": "6",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1514"
-              ]
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "04",
+          "listePeriodes": [
+            {
+              "jour": "2",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
+            },
+            {
+              "jour": "5",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "05",
+          "listePeriodes": [
+            {
+              "jour": "3",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "5",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "06",
+          "listePeriodes": [
+            {
+              "jour": "2",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "4",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
             }
           ]
         },
@@ -1743,22 +885,16 @@
           "id": "07",
           "listePeriodes": [
             {
-              "jour": "2",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1706"
-              ]
+              "jour": "5",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
             },
             {
-              "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1516"
-              ]
+              "jour": "3",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
+              "activite": "TP"
             }
           ]
         },
@@ -1769,19 +905,13 @@
               "jour": "5",
               "heureDebut": "13:30",
               "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1502"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "2",
               "heureDebut": "13:30",
               "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-3428"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -1789,22 +919,16 @@
           "id": "09",
           "listePeriodes": [
             {
-              "jour": "5",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1708"
-              ]
+              "jour": "4",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "3",
+              "jour": "6",
               "heureDebut": "09:00",
               "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1516"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -1812,22 +936,16 @@
           "id": "10",
           "listePeriodes": [
             {
-              "jour": "6",
+              "jour": "5",
               "heureDebut": "09:00",
               "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3406"
-              ]
+              "activite": "Cours"
             },
             {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-3406"
-              ]
+              "jour": "3",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
             }
           ]
         }
@@ -1844,19 +962,13 @@
               "jour": "2",
               "heureDebut": "09:00",
               "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1502"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "4",
               "heureDebut": "09:00",
               "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1506"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -1864,22 +976,16 @@
           "id": "02",
           "listePeriodes": [
             {
-              "jour": "3",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-0904"
-              ]
-            },
-            {
               "jour": "5",
               "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "3",
+              "heureDebut": "09:00",
               "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-0906"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -1887,22 +993,16 @@
           "id": "03",
           "listePeriodes": [
             {
-              "jour": "6",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1504"
-              ]
+              "jour": "5",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "4",
+              "jour": "2",
               "heureDebut": "13:30",
               "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-1504"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -1911,21 +1011,15 @@
           "listePeriodes": [
             {
               "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-0908"
-              ]
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "2",
+              "jour": "6",
               "heureDebut": "09:00",
               "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-0906"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -1933,22 +1027,16 @@
           "id": "05",
           "listePeriodes": [
             {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-0908"
-              ]
+              "jour": "3",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
             },
             {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-0908"
-              ]
+              "jour": "5",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
+              "activite": "TP"
             }
           ]
         },
@@ -1956,22 +1044,16 @@
           "id": "06",
           "listePeriodes": [
             {
-              "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-0906"
-              ]
+              "jour": "2",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
             },
             {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-0904"
-              ]
+              "jour": "4",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
+              "activite": "TP"
             }
           ]
         },
@@ -1979,22 +1061,16 @@
           "id": "07",
           "listePeriodes": [
             {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1506"
-              ]
+              "jour": "2",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "B-3428"
-              ]
+              "jour": "5",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP"
             }
           ]
         },
@@ -2003,21 +1079,15 @@
           "listePeriodes": [
             {
               "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3416"
-              ]
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
             },
             {
-              "jour": "6",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1404"
-              ]
+              "jour": "2",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
             }
           ]
         },
@@ -2026,21 +1096,15 @@
           "listePeriodes": [
             {
               "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-3428"
-              ]
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
             },
             {
-              "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-0904"
-              ]
+              "jour": "5",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
             }
           ]
         },
@@ -2048,22 +1112,33 @@
           "id": "10",
           "listePeriodes": [
             {
-              "jour": "5",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-0908"
-              ]
+              "jour": "3",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "3",
+              "jour": "6",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "listePeriodes": [
+            {
+              "jour": "6",
               "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-0906"
-              ]
+              "heureFin": "12:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "4",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP"
             }
           ]
         }
@@ -2077,45 +1152,17 @@
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "4",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": "Cours",
-              "locaux": [
-                "A-4404"
-              ]
-            },
-            {
-              "jour": "2",
+              "jour": "6",
               "heureDebut": "08:30",
-              "heureFin": "11:30",
-              "activite": "TP",
-              "locaux": [
-                "A-2448",
-                "A-2304"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "A-4404"
-              ]
+              "heureFin": "12:00",
+              "activite": "Cours"
             },
             {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
+              "jour": "4",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
               "activite": "TP",
               "locaux": [
-                "A-2448",
                 "A-2304"
               ]
             }
@@ -2132,44 +1179,17 @@
           "listePeriodes": [
             {
               "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "A-1260"
-              ]
-            },
-            {
-              "jour": "6",
-              "heureDebut": "08:45",
-              "heureFin": "11:45",
-              "activite": "Lab",
-              "locaux": [
-                "A-1222",
-                "A-1226"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "A-4408"
-              ]
+              "heureDebut": "08:30",
+              "heureFin": "12:00",
+              "activite": "Cours"
             },
             {
               "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
+              "heureDebut": "08:30",
+              "heureFin": "11:30",
               "activite": "Lab",
               "locaux": [
-                "A-1220",
+                "A-1222",
                 "A-1226"
               ]
             }
@@ -2185,28 +1205,7 @@
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "3",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": [
-                "Cours",
-                "Lab"
-              ],
-              "locaux": [
-                "A-1300",
-                [
-                  "A-2150"
-                ]
-              ]
-            },
-            {}
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "5",
+              "jour": "2",
               "heureDebut": "13:30",
               "heureFin": "17:00",
               "activite": [
@@ -2214,34 +1213,9 @@
                 "Lab"
               ],
               "locaux": [
-                "A-2332",
-                [
-                  "A-2150"
-                ]
+                "A-2150"
               ]
-            },
-            {}
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": [
-                "Cours",
-                "Lab"
-              ],
-              "locaux": [
-                "A-1170",
-                [
-                  "A-2150"
-                ]
-              ]
-            },
-            {}
+            }
           ]
         }
       ]
@@ -2254,35 +1228,26 @@
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "4",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": "Cours",
-              "locaux": [
-                "B-3428"
-              ]
+              "jour": "3",
+              "heureDebut": "08:30",
+              "heureFin": "12:00",
+              "activite": "Cours"
             },
             {
-              "jour": "2",
+              "jour": "5",
               "heureDebut": "08:30",
               "heureFin": "10:30",
               "activite": "TP",
               "locaux": [
-                "A-1238",
-                "A-1214",
+                "A-1222",
                 "A-2200"
               ]
             },
             {
-              "jour": "2",
+              "jour": "5",
               "heureDebut": "10:30",
               "heureFin": "12:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1238",
-                "A-1214",
-                "A-2200"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -2290,71 +1255,26 @@
           "id": "02",
           "listePeriodes": [
             {
-              "jour": "3",
+              "jour": "4",
               "heureDebut": "13:30",
               "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-0908"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "6",
-              "heureDebut": "15:30",
-              "heureFin": "17:30",
+              "heureDebut": "08:30",
+              "heureFin": "10:30",
               "activite": "TP",
               "locaux": [
-                "A-4670",
-                "A-1214",
+                "A-1222",
                 "A-2200"
               ]
             },
             {
               "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "15:30",
-              "activite": "TP",
-              "locaux": [
-                "A-4670",
-                "A-1214",
-                "A-2200"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-0906"
-              ]
-            },
-            {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "20:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1238",
-                "A-1214",
-                "A-2200"
-              ]
-            },
-            {
-              "jour": "2",
-              "heureDebut": "20:00",
-              "heureFin": "22:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1238",
-                "A-1214",
-                "A-2200"
-              ]
+              "heureDebut": "10:30",
+              "heureFin": "12:30",
+              "activite": "TP"
             }
           ]
         }
@@ -2368,22 +1288,18 @@
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "5",
+              "jour": "2",
               "heureDebut": "08:30",
               "heureFin": "12:00",
-              "activite": "Cours",
-              "locaux": [
-                "A-2330"
-              ]
+              "activite": "Cours"
             },
             {
-              "jour": "3",
-              "heureDebut": "08:45",
-              "heureFin": "10:45",
+              "jour": "4",
+              "heureDebut": "08:30",
+              "heureFin": "10:30",
               "activite": "TP",
               "locaux": [
-                "CTT",
-                "A-4404"
+                "CTT"
               ]
             }
           ]
@@ -2392,70 +1308,18 @@
           "id": "02",
           "listePeriodes": [
             {
-              "jour": "4",
+              "jour": "5",
               "heureDebut": "13:30",
               "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "A-1340"
-              ]
+              "activite": "Cours"
             },
-            {
-              "jour": "6",
-              "heureDebut": "08:45",
-              "heureFin": "10:45",
-              "activite": "TP",
-              "locaux": [
-                "CTT",
-                "B-1506"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
             {
               "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "A-2330"
-              ]
-            },
-            {
-              "jour": "5",
               "heureDebut": "13:30",
               "heureFin": "15:30",
               "activite": "TP",
               "locaux": [
-                "CTT",
-                "A-1260"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "04",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "A-1300"
-              ]
-            },
-            {
-              "jour": "6",
-              "heureDebut": "18:00",
-              "heureFin": "20:00",
-              "activite": "TP",
-              "locaux": [
-                "CTT",
-                "A-2448"
+                "CTT"
               ]
             }
           ]
@@ -2470,21 +1334,17 @@
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-4410"
-              ]
+              "jour": "5",
+              "heureDebut": "08:30",
+              "heureFin": "12:00",
+              "activite": "Cours"
             },
             {
-              "jour": "6",
-              "heureDebut": "08:45",
-              "heureFin": "11:45",
+              "jour": "3",
+              "heureDebut": "08:30",
+              "heureFin": "11:30",
               "activite": "TP",
               "locaux": [
-                "A-2448",
                 "A-2304"
               ]
             }
@@ -2494,21 +1354,17 @@
           "id": "02",
           "listePeriodes": [
             {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1506"
-              ]
+              "jour": "4",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
+              "jour": "6",
+              "heureDebut": "08:30",
+              "heureFin": "11:30",
               "activite": "TP",
               "locaux": [
-                "A-2448",
                 "A-2304"
               ]
             }
@@ -2524,22 +1380,18 @@
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "5",
+              "jour": "2",
               "heureDebut": "08:30",
               "heureFin": "12:00",
-              "activite": "Cours",
-              "locaux": [
-                "A-1238"
-              ]
+              "activite": "Cours"
             },
             {
-              "jour": "3",
-              "heureDebut": "08:45",
-              "heureFin": "11:45",
+              "jour": "4",
+              "heureDebut": "08:30",
+              "heureFin": "11:30",
               "activite": "TP",
               "locaux": [
-                "A-1238",
-                "A-1220",
+                "A-1226",
                 "A-2220"
               ]
             }
@@ -2549,47 +1401,18 @@
           "id": "02",
           "listePeriodes": [
             {
-              "jour": "4",
+              "jour": "3",
               "heureDebut": "13:30",
               "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "A-1424"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "6",
-              "heureDebut": "08:45",
-              "heureFin": "11:45",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
               "activite": "TP",
               "locaux": [
-                "A-1350",
-                "A-1220",
-                "A-2220"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "A-1260"
-              ]
-            },
-            {
-              "jour": "6",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1238",
-                "A-1220",
+                "A-1226",
                 "A-2220"
               ]
             }
@@ -2605,33 +1428,25 @@
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "A-1340"
-              ]
+              "jour": "2",
+              "heureDebut": "08:30",
+              "heureFin": "12:00",
+              "activite": "Cours"
             },
             {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "15:30",
+              "jour": "4",
+              "heureDebut": "08:30",
+              "heureFin": "10:30",
               "activite": "TP",
               "locaux": [
-                "A-2448",
                 "A-1222"
               ]
             },
             {
-              "jour": "2",
-              "heureDebut": "15:30",
-              "heureFin": "17:30",
-              "activite": "TP",
-              "locaux": [
-                "A-2448",
-                "A-1222"
-              ]
+              "jour": "4",
+              "heureDebut": "10:30",
+              "heureFin": "12:30",
+              "activite": "TP"
             }
           ]
         },
@@ -2639,33 +1454,25 @@
           "id": "02",
           "listePeriodes": [
             {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1718"
-              ]
+              "jour": "5",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "6",
-              "heureDebut": "18:00",
-              "heureFin": "20:00",
+              "jour": "2",
+              "heureDebut": "13:30",
+              "heureFin": "15:30",
               "activite": "TP",
               "locaux": [
-                "A-1240",
                 "A-1222"
               ]
             },
             {
-              "jour": "6",
-              "heureDebut": "20:00",
-              "heureFin": "22:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1240",
-                "A-1222"
-              ]
+              "jour": "2",
+              "heureDebut": "15:30",
+              "heureFin": "17:30",
+              "activite": "TP"
             }
           ]
         }
@@ -2679,22 +1486,18 @@
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "4",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": "Cours",
-              "locaux": [
-                "A-1238"
-              ]
+              "jour": "3",
+              "heureDebut": "08:30",
+              "heureFin": "12:00",
+              "activite": "Cours"
             },
             {
-              "jour": "2",
+              "jour": "5",
               "heureDebut": "08:30",
               "heureFin": "11:30",
               "activite": "TP",
               "locaux": [
-                "A-1242",
-                "A-1220"
+                "A-1226"
               ]
             }
           ]
@@ -2703,46 +1506,18 @@
           "id": "02",
           "listePeriodes": [
             {
-              "jour": "3",
+              "jour": "4",
               "heureDebut": "13:30",
               "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "A-1238"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
+              "heureDebut": "08:30",
+              "heureFin": "11:30",
               "activite": "TP",
               "locaux": [
-                "A-1752",
-                "A-1222"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1706"
-              ]
-            },
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1260",
-                "A-1222"
+                "A-1226"
               ]
             }
           ]
@@ -2757,47 +1532,18 @@
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "A-1170"
-              ]
+              "jour": "5",
+              "heureDebut": "08:30",
+              "heureFin": "12:00",
+              "activite": "Cours"
             },
             {
-              "jour": "6",
-              "heureDebut": "08:45",
-              "heureFin": "10:45",
+              "jour": "3",
+              "heureDebut": "08:30",
+              "heureFin": "10:30",
               "activite": "TP",
               "locaux": [
-                "A-1238",
-                "A-1214",
-                "A-2200"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-0908"
-              ]
-            },
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "20:00",
-              "activite": "TP",
-              "locaux": [
-                "A-2448",
-                "A-1214",
+                "A-1222",
                 "A-2200"
               ]
             }
@@ -2813,22 +1559,18 @@
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "5",
+              "jour": "2",
               "heureDebut": "08:30",
               "heureFin": "12:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1516"
-              ]
+              "activite": "Cours"
             },
             {
-              "jour": "3",
-              "heureDebut": "08:45",
-              "heureFin": "11:45",
+              "jour": "4",
+              "heureDebut": "08:30",
+              "heureFin": "11:30",
               "activite": "TP",
               "locaux": [
-                "A-1260",
-                "A-1222"
+                "A-1220"
               ]
             }
           ]
@@ -2837,22 +1579,18 @@
           "id": "02",
           "listePeriodes": [
             {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1514"
-              ]
+              "jour": "4",
+              "heureDebut": "08:30",
+              "heureFin": "12:00",
+              "activite": "Cours"
             },
             {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
+              "jour": "2",
+              "heureDebut": "08:30",
+              "heureFin": "11:30",
               "activite": "TP",
               "locaux": [
-                "A-1238",
-                "A-1222"
+                "A-1220"
               ]
             }
           ]
@@ -2868,20 +1606,17 @@
           "listePeriodes": [
             {
               "jour": "3",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": "Cours",
-              "locaux": [
-                "A-4670"
-              ]
+              "heureDebut": "08:30",
+              "heureFin": "12:00",
+              "activite": "Cours"
             },
             {
-              "jour": "6",
-              "heureDebut": "08:45",
-              "heureFin": "10:45",
+              "jour": "5",
+              "heureDebut": "08:30",
+              "heureFin": "10:30",
               "activite": "TP",
               "locaux": [
-                "A-4408"
+                "CTT"
               ]
             }
           ]
@@ -2893,41 +1628,15 @@
               "jour": "4",
               "heureDebut": "13:30",
               "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "A-2332"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "6",
-              "heureDebut": "08:45",
-              "heureFin": "10:45",
+              "heureDebut": "08:30",
+              "heureFin": "10:30",
               "activite": "TP",
               "locaux": [
-                "A-4404"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "A-2330"
-              ]
-            },
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "20:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1260"
+                "CTT"
               ]
             }
           ]
@@ -2939,24 +1648,20 @@
       "description": "CIRCUITS ÉLECTRIQUES ET ÉLECTROTECHNIQUES",
       "listeGroupe": [
         {
-          "id": "02",
+          "id": "01",
           "listePeriodes": [
             {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "A-4408"
-              ]
+              "jour": "4",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
+              "jour": "6",
+              "heureDebut": "08:30",
+              "heureFin": "11:30",
               "activite": "TP",
               "locaux": [
-                "A-1242",
                 "A-2170"
               ]
             }
@@ -2964,63 +1669,63 @@
         }
       ]
     },
-    "MEC620": {
-      "id": "MEC620",
-      "description": "MATÉRIAUX COMPOSITES",
+    "MEC624": {
+      "id": "MEC624",
+      "description": "TECHNOLOGIE DE LA MISE EN FORME",
       "listeGroupe": [
         {
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "5",
+              "jour": "4",
               "heureDebut": "13:30",
               "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-4416"
-              ]
+              "activite": "Cours"
             },
             {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "15:30",
+              "jour": "6",
+              "heureDebut": "08:30",
+              "heureFin": "10:30",
               "activite": "TP",
               "locaux": [
-                "B-1510",
-                "A-4401"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-3410"
-              ]
-            },
-            {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "15:30",
-              "activite": "TP",
-              "locaux": [
-                "A-4660",
-                "A-4401"
+                "A-1220"
               ]
             }
           ]
         }
       ]
     },
-    "MEC626": {
-      "id": "MEC626",
-      "description": "PROTOTYPAGE RAPIDE",
+    "MEC625": {
+      "id": "MEC625",
+      "description": "TECHNOLOGIE DU SOUDAGE",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "3",
+              "heureDebut": "08:30",
+              "heureFin": "12:00",
+              "activite": "Cours"
+            },
+            {
+              "jour": "5",
+              "heureDebut": "08:30",
+              "heureFin": "10:30",
+              "activite": "Lab",
+              "locaux": [
+                "A-0550",
+                "A-1214",
+                "A-2150"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "MEC628": {
+      "id": "MEC628",
+      "description": "CONCEPTION DE SYSTÈMES À FLUIDE SOUS PRESSION",
       "listeGroupe": [
         {
           "id": "01",
@@ -3029,10 +1734,7 @@
               "jour": "2",
               "heureDebut": "18:00",
               "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3414"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "4",
@@ -3040,48 +1742,34 @@
               "heureFin": "20:00",
               "activite": "TP",
               "locaux": [
-                "A-1240",
-                "A-1220"
+                "A-1226",
+                "A-2170"
               ]
             }
           ]
         }
       ]
     },
-    "MEC636": {
-      "id": "MEC636",
-      "description": "ACOUSTIQUE INDUSTRIELLE",
+    "MEC630": {
+      "id": "MEC630",
+      "description": "VENTILATION ET CHAUFFAGE",
       "listeGroupe": [
         {
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "2",
+              "jour": "5",
               "heureDebut": "08:30",
               "heureFin": "12:00",
-              "activite": "Cours",
-              "locaux": [
-                "A-3336"
-              ]
+              "activite": "Cours"
             },
             {
-              "jour": "4",
+              "jour": "3",
               "heureDebut": "08:30",
               "heureFin": "10:30",
               "activite": "TP",
               "locaux": [
-                "A-1222",
-                "A-2210"
-              ]
-            },
-            {
-              "jour": "4",
-              "heureDebut": "10:30",
-              "heureFin": "12:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1222",
-                "A-2210"
+                "A-1226"
               ]
             }
           ]
@@ -3093,75 +1781,21 @@
       "description": "AUTOMATIQUE ET MÉCATRONIQUE",
       "listeGroupe": [
         {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": "Cours",
-              "locaux": [
-                "A-1170"
-              ]
-            },
-            {
-              "jour": "2",
-              "heureDebut": "08:30",
-              "heureFin": "11:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1260",
-                "A-1226",
-                "A-2170"
-              ]
-            }
-          ]
-        },
-        {
           "id": "02",
           "listePeriodes": [
             {
-              "jour": "5",
+              "jour": "3",
               "heureDebut": "13:30",
               "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "A-1150"
-              ]
+              "activite": "Cours"
             },
             {
-              "jour": "2",
+              "jour": "6",
               "heureDebut": "13:30",
               "heureFin": "16:30",
               "activite": "TP",
               "locaux": [
-                "A-1260",
-                "A-1226",
-                "A-2170"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3414"
-              ]
-            },
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1240",
-                "A-1226",
+                "A-1220",
                 "A-2170"
               ]
             }
@@ -3169,30 +1803,25 @@
         }
       ]
     },
-    "MEC662": {
-      "id": "MEC662",
-      "description": "MÉTROLOGIE EN CONCEPTION ET FABRICATION MÉCANIQUE",
+    "MEC652": {
+      "id": "MEC652",
+      "description": "CONCEPTION DES SYSTÈMES MANUFACTURIERS",
       "listeGroupe": [
         {
           "id": "01",
           "listePeriodes": [
             {
               "jour": "2",
-              "heureDebut": "08:30",
-              "heureFin": "12:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1510"
-              ]
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "4",
-              "heureDebut": "08:45",
-              "heureFin": "10:45",
+              "jour": "5",
+              "heureDebut": "13:30",
+              "heureFin": "15:30",
               "activite": "Lab",
               "locaux": [
-                "A-1350",
-                "A-0620",
                 "A-1226"
               ]
             }
@@ -3200,69 +1829,25 @@
         }
       ]
     },
-    "MEC670": {
-      "id": "MEC670",
-      "description": "INTRODUCTION À L\u0027AÉRONAUTIQUE",
+    "MEC743": {
+      "id": "MEC743",
+      "description": "INSTRUMENTATION ET CONTRÔLE DES PROCÉDÉS INDUSTRIELS",
       "listeGroupe": [
         {
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "A-1340"
-              ]
+              "jour": "6",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "20:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1240",
-                "A-1226"
-              ]
-            },
-            {
-              "jour": "5",
-              "heureDebut": "20:00",
-              "heureFin": "22:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1240",
-                "A-1226"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "MEC727": {
-      "id": "MEC727",
-      "description": "TRIBOLOGIE",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
             {
               "jour": "3",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": "Cours",
-              "locaux": [
-                "B-1510"
-              ]
-            },
-            {
-              "jour": "5",
-              "heureDebut": "08:30",
-              "heureFin": "10:30",
+              "heureDebut": "13:30",
+              "heureFin": "15:30",
               "activite": "TP",
               "locaux": [
-                "A-1302",
                 "A-1222",
                 "A-2170"
               ]
@@ -3271,68 +1856,62 @@
         }
       ]
     },
-    "MEC728": {
-      "id": "MEC728",
-      "description": "CONCEPTION ET ANALYSE DES ASSEMBLAGES",
+    "MEC761": {
+      "id": "MEC761",
+      "description": "ESSAIS MÉCANIQUES ET CONTRÔLE NON DESTRUCTIF",
       "listeGroupe": [
         {
           "id": "01",
           "listePeriodes": [
+            {
+              "jour": "3",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
+            {
+              "jour": "5",
+              "heureDebut": "18:00",
+              "heureFin": "20:00",
+              "activite": "TP",
+              "locaux": [
+                "A-1226"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "MEC763": {
+      "id": "MEC763",
+      "description": "TECHNIQUES DE MAINTENANCE INDUSTRIELLE",
+      "listeGroupe": [
+        {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "4",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
+            },
             {
               "jour": "2",
               "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1516"
-              ]
-            },
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
               "heureFin": "20:00",
               "activite": "TP",
               "locaux": [
-                "A-1242",
-                "A-1226"
+                "A-1226",
+                "A-2200"
               ]
             }
           ]
         }
       ]
     },
-    "MEC729": {
-      "id": "MEC729",
-      "description": "MÉCANISMES ET DYNAMIQUE DES MACHINES",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1716"
-              ]
-            },
-            {
-              "jour": "6",
-              "heureDebut": "08:45",
-              "heureFin": "10:45",
-              "activite": "TP",
-              "locaux": [
-                "A-4660"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "MEC733": {
-      "id": "MEC733",
-      "description": "GESTION D\u0027ÉNERGIE DANS LES BÂTIMENTS",
+    "MEC770": {
+      "id": "MEC770",
+      "description": "CONCEPTION AÉRODYNAMIQUE",
       "listeGroupe": [
         {
           "id": "01",
@@ -3341,135 +1920,12 @@
               "jour": "3",
               "heureDebut": "13:30",
               "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "A-2330"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "6",
               "heureDebut": "13:30",
               "heureFin": "15:30",
-              "activite": "TP",
-              "locaux": [
-                "A-1260",
-                "A-1226"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "MEC737": {
-      "id": "MEC737",
-      "description": "MOTEURS ALTERNATIFS À COMBUSTION INTERNE",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "5",
-              "heureDebut": "08:30",
-              "heureFin": "12:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-3414"
-              ]
-            },
-            {
-              "jour": "3",
-              "heureDebut": "08:45",
-              "heureFin": "10:45",
-              "activite": "TP",
-              "locaux": [
-                "A-2448",
-                "A-0697"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "MEC753": {
-      "id": "MEC753",
-      "description": "GESTION DE PROJETS INDUSTRIELS",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "A-1302"
-              ]
-            },
-            {
-              "jour": "6",
-              "heureDebut": "18:00",
-              "heureFin": "20:00",
-              "activite": "TP",
-              "locaux": [
-                "A-1562",
-                "A-1226"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "MEC754": {
-      "id": "MEC754",
-      "description": "OPTIMISATION EN PRODUCTION MANUFACTURIÈRE",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "6",
-              "heureDebut": "08:45",
-              "heureFin": "12:15",
-              "activite": "Cours",
-              "locaux": [
-                "A-1150"
-              ]
-            },
-            {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "15:30",
-              "activite": "TP",
-              "locaux": [
-                "A-4408",
-                "A-1222"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    "MEC785": {
-      "id": "MEC785",
-      "description": "MÉTHODOLOGIE DE CONCEPTION POUR FABRICATION ET ASSEMBLAGE",
-      "listeGroupe": [
-        {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3422"
-              ]
-            },
-            {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "20:00",
               "activite": "TP",
               "locaux": [
                 "A-1222"
@@ -3491,13 +1947,10 @@
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Projet",
-              "locaux": [
-                "A-1150"
-              ]
+              "jour": "2",
+              "heureDebut": "08:30",
+              "heureFin": "12:00",
+              "activite": "Projet"
             }
           ]
         }
@@ -3508,117 +1961,36 @@
       "description": "INTRODUCTION À LA PHYSIQUE DU GÉNIE (HORS PROGRAMME)",
       "listeGroupe": [
         {
-          "id": "01",
+          "id": "80",
           "listePeriodes": [
             {
               "jour": "2",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3418"
-              ]
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
             },
             {
               "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-3418"
-              ]
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
+              "activite": "TP"
             }
           ]
         },
         {
-          "id": "02",
+          "id": "81",
           "listePeriodes": [
             {
               "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3406"
-              ]
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
               "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "B-3402"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3432"
-              ]
-            },
-            {
-              "jour": "2",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-4416"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "04",
-          "listePeriodes": [
-            {
-              "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-3406"
-              ]
-            },
-            {
-              "jour": "3",
               "heureDebut": "13:30",
               "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-1404"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "05",
-          "listePeriodes": [
-            {
-              "jour": "6",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3410"
-              ]
-            },
-            {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-3432"
-              ]
+              "activite": "TP"
             }
           ]
         }
@@ -3629,94 +2001,19 @@
       "description": "ÉLECTRICITÉ ET MAGNÉTISME",
       "listeGroupe": [
         {
-          "id": "01",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-2622"
-              ]
-            },
-            {
-              "jour": "4",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1518"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "02",
-          "listePeriodes": [
-            {
-              "jour": "3",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1506"
-              ]
-            },
-            {
-              "jour": "5",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1506"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
-              "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1506"
-              ]
-            },
-            {
-              "jour": "6",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-4410"
-              ]
-            }
-          ]
-        },
-        {
           "id": "04",
           "listePeriodes": [
             {
-              "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1502"
-              ]
+              "jour": "4",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
             },
             {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-1506"
-              ]
+              "jour": "2",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
+              "activite": "TP"
             }
           ]
         },
@@ -3724,22 +2021,16 @@
           "id": "05",
           "listePeriodes": [
             {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3422"
-              ]
+              "jour": "4",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
             },
             {
-              "jour": "6",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1716"
-              ]
+              "jour": "2",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
             }
           ]
         },
@@ -3747,22 +2038,16 @@
           "id": "06",
           "listePeriodes": [
             {
-              "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-4408"
-              ]
+              "jour": "2",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
             },
             {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-1504"
-              ]
+              "jour": "4",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
             }
           ]
         },
@@ -3770,22 +2055,16 @@
           "id": "07",
           "listePeriodes": [
             {
-              "jour": "5",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1502"
-              ]
+              "jour": "3",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "3",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-0908"
-              ]
+              "jour": "6",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP"
             }
           ]
         }
@@ -3799,22 +2078,16 @@
           "id": "01",
           "listePeriodes": [
             {
-              "jour": "5",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1514"
-              ]
+              "jour": "4",
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
             },
             {
               "jour": "2",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-1514"
-              ]
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
             }
           ]
         },
@@ -3825,19 +2098,13 @@
               "jour": "5",
               "heureDebut": "09:00",
               "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1504"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "3",
               "heureDebut": "09:00",
               "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-4410"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -3845,22 +2112,16 @@
           "id": "03",
           "listePeriodes": [
             {
-              "jour": "6",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-0908"
-              ]
-            },
-            {
               "jour": "4",
               "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-0906"
-              ]
+              "heureFin": "17:00",
+              "activite": "Cours"
+            },
+            {
+              "jour": "6",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
             }
           ]
         },
@@ -3868,22 +2129,16 @@
           "id": "04",
           "listePeriodes": [
             {
-              "jour": "2",
+              "jour": "3",
               "heureDebut": "13:30",
               "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1516"
-              ]
+              "activite": "Cours"
             },
             {
-              "jour": "5",
+              "jour": "6",
               "heureDebut": "13:30",
               "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-4408"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -3891,22 +2146,16 @@
           "id": "05",
           "listePeriodes": [
             {
-              "jour": "3",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1516"
-              ]
+              "jour": "5",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
             },
             {
-              "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "16:30",
-              "activite": "TP",
-              "locaux": [
-                "B-1708"
-              ]
+              "jour": "3",
+              "heureDebut": "18:00",
+              "heureFin": "21:00",
+              "activite": "TP"
             }
           ]
         },
@@ -3915,21 +2164,15 @@
           "listePeriodes": [
             {
               "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1708"
-              ]
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "6",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1518"
-              ]
+              "jour": "5",
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP"
             }
           ]
         },
@@ -3937,22 +2180,16 @@
           "id": "07",
           "listePeriodes": [
             {
-              "jour": "2",
+              "jour": "3",
               "heureDebut": "09:00",
               "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1506"
-              ]
+              "activite": "Cours"
             },
             {
-              "jour": "4",
+              "jour": "5",
               "heureDebut": "09:00",
               "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-0906"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -3960,22 +2197,33 @@
           "id": "08",
           "listePeriodes": [
             {
-              "jour": "4",
+              "jour": "2",
               "heureDebut": "09:00",
               "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-4408"
-              ]
+              "activite": "Cours"
+            },
+            {
+              "jour": "4",
+              "heureDebut": "09:00",
+              "heureFin": "12:00",
+              "activite": "TP"
+            }
+          ]
+        },
+        {
+          "id": "09",
+          "listePeriodes": [
+            {
+              "jour": "5",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
               "jour": "2",
-              "heureDebut": "09:00",
-              "heureFin": "12:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1514"
-              ]
+              "heureDebut": "13:30",
+              "heureFin": "16:30",
+              "activite": "TP"
             }
           ]
         }
@@ -3986,128 +2234,37 @@
       "description": "INIT. AU MILIEU INDUS., SANTÉ ET SÉCURITÉ AU TRAVAIL",
       "listeGroupe": [
         {
+          "id": "01",
+          "listePeriodes": [
+            {
+              "jour": "6",
+              "heureDebut": "18:00",
+              "heureFin": "21:00"
+            },
+            {
+              "jour": "0",
+              "heureDebut": "09:00",
+              "heureFin": "16:00"
+            }
+          ]
+        },
+        {
           "id": "02",
           "listePeriodes": [
             {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "locaux": [
-                "A-4404"
-              ]
-            },
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "locaux": [
-                "A-4404"
-              ]
-            },
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "locaux": [
-                "A-4404"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "03",
-          "listePeriodes": [
-            {
               "jour": "6",
               "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "locaux": [
-                "A-4406"
-              ]
+              "heureFin": "21:00"
             },
             {
               "jour": "0",
               "heureDebut": "09:00",
-              "heureFin": "16:00",
-              "locaux": [
-                "A-4406"
-              ]
+              "heureFin": "16:00"
             }
           ]
         },
         {
-          "id": "04",
-          "listePeriodes": [
-            {
-              "jour": "2",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "locaux": [
-                "A-4406"
-              ]
-            },
-            {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "locaux": [
-                "A-4406"
-              ]
-            },
-            {
-              "jour": "4",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "locaux": [
-                "A-4406"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "05",
-          "listePeriodes": [
-            {
-              "jour": "6",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "locaux": [
-                "A-4404"
-              ]
-            },
-            {
-              "jour": "0",
-              "heureDebut": "09:00",
-              "heureFin": "16:00",
-              "locaux": [
-                "A-4404"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "06",
-          "listePeriodes": [
-            {
-              "jour": "6",
-              "heureDebut": "18:00",
-              "heureFin": "21:00",
-              "locaux": [
-                "A-4406"
-              ]
-            },
-            {
-              "jour": "0",
-              "heureDebut": "09:00",
-              "heureFin": "16:00",
-              "locaux": [
-                "A-4406"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "07"
+          "id": "03"
         }
       ]
     },
@@ -4122,19 +2279,13 @@
               "jour": "5",
               "heureDebut": "09:00",
               "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1514"
-              ]
+              "activite": "Cours"
             },
             {
               "jour": "3",
               "heureDebut": "08:30",
               "heureFin": "12:30",
-              "activite": "TP",
-              "locaux": [
-                "A-4660"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -4143,21 +2294,15 @@
           "listePeriodes": [
             {
               "jour": "4",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-0908"
-              ]
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
             },
             {
-              "jour": "6",
+              "jour": "2",
               "heureDebut": "08:30",
               "heureFin": "12:30",
-              "activite": "TP",
-              "locaux": [
-                "B-1512"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -4166,21 +2311,15 @@
           "listePeriodes": [
             {
               "jour": "6",
-              "heureDebut": "13:30",
-              "heureFin": "17:00",
-              "activite": "Cours",
-              "locaux": [
-                "B-1516"
-              ]
+              "heureDebut": "09:00",
+              "heureFin": "12:30",
+              "activite": "Cours"
             },
             {
-              "jour": "3",
+              "jour": "4",
               "heureDebut": "13:30",
               "heureFin": "17:30",
-              "activite": "TP",
-              "locaux": [
-                "B-2624"
-              ]
+              "activite": "TP"
             }
           ]
         },
@@ -4188,22 +2327,16 @@
           "id": "04",
           "listePeriodes": [
             {
-              "jour": "5",
-              "heureDebut": "18:00",
-              "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1502"
-              ]
+              "jour": "3",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
-              "jour": "3",
-              "heureDebut": "18:00",
-              "heureFin": "22:00",
-              "activite": "TP",
-              "locaux": [
-                "B-1404"
-              ]
+              "jour": "6",
+              "heureDebut": "13:30",
+              "heureFin": "17:30",
+              "activite": "TP"
             }
           ]
         },
@@ -4214,19 +2347,13 @@
               "jour": "4",
               "heureDebut": "18:00",
               "heureFin": "21:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-4408"
-              ]
+              "activite": "Cours"
             },
             {
-              "jour": "6",
+              "jour": "2",
               "heureDebut": "18:00",
-              "heureFin": "22:00",
-              "activite": "TP",
-              "locaux": [
-                "B-3414"
-              ]
+              "heureFin": "20:00",
+              "activite": "TP"
             }
           ]
         },
@@ -4234,22 +2361,16 @@
           "id": "06",
           "listePeriodes": [
             {
-              "jour": "2",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-3428"
-              ]
+              "jour": "3",
+              "heureDebut": "18:00",
+              "heureFin": "21:30",
+              "activite": "Cours"
             },
             {
-              "jour": "4",
-              "heureDebut": "08:30",
-              "heureFin": "12:30",
-              "activite": "TP",
-              "locaux": [
-                "B-1508"
-              ]
+              "jour": "5",
+              "heureDebut": "18:00",
+              "heureFin": "20:00",
+              "activite": "TP"
             }
           ]
         },
@@ -4257,33 +2378,23 @@
           "id": "07",
           "listePeriodes": [
             {
-              "jour": "3",
-              "heureDebut": "09:00",
-              "heureFin": "12:30",
-              "activite": "Cours",
-              "locaux": [
-                "B-1502"
-              ]
+              "jour": "2",
+              "heureDebut": "13:30",
+              "heureFin": "17:00",
+              "activite": "Cours"
             },
             {
               "jour": "5",
-              "heureDebut": "08:30",
-              "heureFin": "12:30",
-              "activite": "TP",
-              "locaux": [
-                "B-3418"
-              ]
+              "heureDebut": "13:30",
+              "heureFin": "17:30",
+              "activite": "TP"
             }
           ]
         }
       ]
-    },
-    "TIN502": {
-      "id": "TIN502",
-      "description": "SANTÉ, TECHNOLOGIE ET SOCIÉTÉ"
     }
   },
-  "url": "http://etsmtl.ca/Etudiants-actuels/Baccalaureat/Cours-horaires-1er-cycle/Horaire-cours/Anciens/hiver/hor_MEC.pdf",
-  "id": "Anciens-Hiver_2014-MEC",
-  "date": "Mar 28, 2014 1:30:32 AM"
+  "url": "http://etsmtl.ca/Etudiants-actuels/Baccalaureat/Cours-horaires-1er-cycle/Horaire-cours/Anciens/Ete/hor_MEC.pdf",
+  "id": "Été 2014 - Génie mécanique",
+  "date": "Apr 2, 2014 11:06:09 PM"
 }
