@@ -13,13 +13,24 @@
         <servlet-class>
             net.oal.ets.planhoraire.server.CoursServiceImpl
         </servlet-class> 
-    </servlet> 
-    <servlet-mapping> 
+    </servlet>
+
+    <servlet>
+        <servlet-name>ImportServlet</servlet-name>
+        <servlet-class>net.oal.ets.planhoraire.server.ImportServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
         <servlet-name>CoursService</servlet-name> 
         <url-pattern>/net.oal.ets.planhoraire.Planhoraire/cours.do</url-pattern> 
     </servlet-mapping>
     <servlet-mapping> 
         <servlet-name>CoursService</servlet-name> 
         <url-pattern>/net.oal.ets.planhoraire.Grillehoraire/cours.do</url-pattern> 
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ImportServlet</servlet-name>
+        <url-pattern>/import</url-pattern>
     </servlet-mapping>
 </web-app>

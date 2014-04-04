@@ -1,6 +1,7 @@
 package net.oal.ets.planhoraire.model;
 
 import net.oal.ets.planhoraire.client.Cours;
+import net.oal.ets.planhoraire.client.Horaire;
 
 import java.util.ArrayList;
 import java.util.Collection;

@@ -3,9 +3,10 @@ package net.oal.paha
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import groovy.swing.SwingBuilder
+import groovyx.net.http.HTTPBuilder
+import static groovyx.net.http.ContentType.*
 import net.oal.utils.xml.PDF2XML
 
-import javax.swing.JFileChooser
 import javax.swing.JFrame
 import javax.xml.transform.Transformer
 import javax.xml.transform.TransformerFactory
@@ -18,7 +19,7 @@ public class ImportPDF {
 
     public void setStylesheetFrom(URL styleURL) {
         transformer = null;
-        if(styleURL) {
+        if (styleURL) {
             Reader reader = styleURL.newReader();
 
             def factory = TransformerFactory.newInstance();
@@ -30,7 +31,7 @@ public class ImportPDF {
 
     public void setStylesheetFrom(InputStream styleIS) {
         transformer = null;
-        if(styleIS) {
+        if (styleIS) {
             Reader reader = new InputStreamReader(styleIS);
 
             def factory = TransformerFactory.newInstance();
@@ -40,14 +41,15 @@ public class ImportPDF {
         }
     }
 
-    public String doImport(URL sourceURL, String horaireId) {
-        if(transformer) {
+    public String doImport(URL sourceURL, String session, String concentration) {
+        if (transformer) {
             String xmlPDF = convertPDF2XML(sourceURL);
             String xml = convertXML2XML(xmlPDF);
 
             Map map = convertXML2Map(xml);
             map.url = sourceURL;
-            map.id = horaireId;
+            map.session = session;
+            map.concentration = concentration;
             map.date = new Date();
 
             String json = convertMap2JSON(map);
@@ -98,6 +100,14 @@ public class ImportPDF {
                         if (subNode.name() == 'entry') {
                             props.put(subNode.children()[0].text(), handle(subNode.children()[1]));
 
+                        } else if (subNode.name() == 'description') {
+                            if (subNode.text() =~ /Date /) {
+
+                            } else {
+                                props.put(subNode.name(), subNode.text());
+
+                            }
+
                         } else if (subNode.name() == 'string') {
                             if (props instanceof List) {
                                 props << subNode.text();
@@ -128,8 +138,8 @@ public class ImportPDF {
                     };
                     switch (node.name()) {
                         case 'horaire':
-                            def desc = props.title;
-                            props.remove('title');
+                            def desc = props.titre;
+                            props.remove('titre');
                             if (desc) {
                                 props.description = desc;
                             }
@@ -187,61 +197,92 @@ public class ImportPDF {
         return json;
     }
 
+    List sessionMap = [
+            "Hiver",
+            "Ete",
+            "Automne"
+    ];
+    List concentrationMap = [
+            "SEG",
+            "CTN",
+            "ELE",
+            "LOG",
+            "MEC",
+            "GOL",
+            "GPA",
+            "GTI",
+            "SUP",
+            "CUR"
+    ];
+
     def horaireSource;
-    def horaireId;
+    def session;
+    def annee;
+    def concentration;
     def horaireJSON;
+
+    def email;
+    def password;
+
     public void showUI() {
         def swingBuilder = new SwingBuilder()
 
         def customMenuBar = {
-            swingBuilder.menuBar{
+            swingBuilder.menuBar {
                 menu(text: "File", mnemonic: 'F') {
-                    menuItem(text: "Exit", mnemonic: 'X', actionPerformed: {dispose() })
+                    menuItem(text: "Exit", mnemonic: 'X', actionPerformed: { dispose() })
                 }
             }
         }
 
         def controlPanel = {
             swingBuilder.panel(constraints: BorderLayout.NORTH) {
-                horaireSource = textField(columns:45)
-                horaireId = textField(columns:15)
-                button(text:"Import", actionPerformed:{
-                    horaireJSON.text = doImport(new URL(horaireSource.text), horaireId.text);
+                horaireSource = textField(columns: 45);
+                session = comboBox(items: sessionMap);
+                annee = textField(columns: 15);
+                concentration = comboBox(items: concentrationMap);
+                button(text: "Import", actionPerformed: {
+                    String sessionAnnee = "${session.selectedItem} ${annee.text}";
+                    horaireJSON.text = doImport(new URL(horaireSource.text), sessionAnnee, concentration.selectedItem);
                 })
             }
         }
 
         def resultsPanel = {
-            swingBuilder.scrollPane(constraints: BorderLayout.CENTER){
+            swingBuilder.scrollPane(constraints: BorderLayout.CENTER) {
                 horaireJSON = textArea(columns: 60, rows: 60);
             }
         }
 
         def savePanel = {
             swingBuilder.panel(constraints: BorderLayout.SOUTH) {
-                button(text:"Save", actionPerformed:{
-                    def fileChooser = swingBuilder.fileChooser(dialogTitle:"Choose file to save to",
-                            id:"saveToFile",
-                            currentDirectory: new File("."),
-                            fileSelectionMode : JFileChooser.FILES_ONLY);
-                    int retval = fileChooser.showSaveDialog(swingBuilder.getParentNode());
-                    if(retval == JFileChooser.APPROVE_OPTION) {
-                        File file = fileChooser.getSelectedFile();
-                        file.text = horaireJSON.text;
-                    }
+//                email = textField(columns: 15, text: 'test@example.com');
+//                password = passwordField(columns: 15);
+                button(text: "Upload", actionPerformed: {
+                    upload(horaireJSON.text);
                 })
             }
         }
 
-        swingBuilder.frame(title:"PDF Importer",
-                defaultCloseOperation:JFrame.EXIT_ON_CLOSE,
-                size:[800,600],
-                show:true) {
+        swingBuilder.frame(title: "PDF Importer",
+                defaultCloseOperation: JFrame.EXIT_ON_CLOSE,
+                size: [1200, 600],
+                show: true) {
             customMenuBar()
             controlPanel()
             resultsPanel()
             savePanel()
         }
+    }
+
+    protected void upload(String json) {
+        HTTPBuilder http = new HTTPBuilder('http://planhoraire.aeets.com/')
+
+//        def postBody = [email: email.text, password: password.text]
+//        http.post(path: '_ah/login', query: ["continue": "/importhoraire.asp"], body: postBody, requestContentType: URLENC);
+
+        def postBody = [horaire: json]
+        http.post(path: 'import', body: postBody, requestContentType: URLENC);
     }
 
     public static void main(String[] args) {

@@ -1,105 +1,108 @@
 package net.oal.ets.planhoraire.server;
 
+import com.google.appengine.api.datastore.*;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.internal.LinkedTreeMap;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 import net.oal.ets.planhoraire.client.*;
-import net.oal.ets.planhoraire.model.Horaire;
+import net.oal.ets.planhoraire.client.Horaire;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
-import java.io.*;
-import java.net.MalformedURLException;
 import java.text.DateFormat;
 import java.util.*;
 import java.util.logging.Logger;
 
-public class CoursServiceImpl extends RemoteServiceServlet
-        implements CoursService {
-    private static final Logger logger = Logger.getLogger(CoursServiceImpl.class.getName());
-
+public class CoursServiceImpl extends RemoteServiceServlet implements CoursService {
     Gson gson = null;
-    Map horaires = new HashMap();
-    Map coursHoraires = new HashMap();
     DateFormat dFormat_ = null;
+    private Map concentrationMap = new HashMap();
+
 
     @Override
-    public void init(ServletConfig config) throws ServletException
-    {
+    public void init(ServletConfig config) throws ServletException {
         super.init(config);
 
         gson = (new GsonBuilder()).create();
         dFormat_ = DateFormat.getDateTimeInstance();
-        dFormat_.setCalendar(Calendar.getInstance(TimeZone.getTimeZone("GMT-5:00"), Locale.CANADA_FRENCH));
+        dFormat_.setCalendar(Calendar.getInstance(TimeZone.getTimeZone("America/Montreal"), Locale.CANADA_FRENCH));
 
-        ServletContext servletContext = config.getServletContext();
-        String pathContext = servletContext.getRealPath("/WEB-INF/");
-        loadHoraire(pathContext);
+        concentrationMap.put("SEG", "Enseignements généraux");
+        concentrationMap.put("CTN", "Génie de la construction");
+        concentrationMap.put("ELE", "Génie électrique");
+        concentrationMap.put("LOG", "Génie logiciel");
+        concentrationMap.put("MEC", "Génie mécanique");
+        concentrationMap.put("GOL", "Génie des opérations et de la logistique");
+        concentrationMap.put("GPA", "Génie de la production automatisée");
+        concentrationMap.put("GTI", "Génie des technologies de l'information");
+        concentrationMap.put("SUP", "Cycles supérieurs");
+        concentrationMap.put("CUR", "Cursus");
     }
 
     public CoursServiceImpl() {
         super();
     }
 
-    private void loadHoraire(String basedir) {
-        try {
-            File dir = new File(basedir, "horaires");
-            if ((dir != null) && dir.exists() && dir.isDirectory()) {
-                this.horaires.clear();
-                File[] files = dir.listFiles();
-                for (int i = 0; i < files.length; i++) {
-                    if (files[i].getName().endsWith(".json")) {
-                        Reader reader = new InputStreamReader(new FileInputStream(files[i]), "UTF-8");
-                        Horaire horaire = gson.fromJson(reader, Horaire.class);
-                        fixBiDirectional(horaire);
-                        horaires.put(horaire.getId(), files[i]);
-                        reader.close();
-                    }
-                }
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    private void fixBiDirectional(Horaire horaire) {
-        for(Cours cours : horaire.getListeCours()) {
-            for(GroupeCours groupe : cours.getListeGroupe()) {
+    private void fixBiDirectionalAndMapImpl(Horaire horaire) {
+        for (Cours cours : horaire.getListeCours()) {
+            for (GroupeCours groupe : cours.getListeGroupe()) {
                 groupe.setCours(cours);
-                for(PeriodeCours periode : groupe.getListePeriodes()) {
+                for (PeriodeCours periode : groupe.getListePeriodes()) {
                     periode.setGroupe(groupe);
                 }
+                groupe.setListePeriodes(new LinkedList<PeriodeCours>(groupe.getListePeriodes()));
             }
+            cours.setListeGroupe(new LinkedList<GroupeCours>(cours.getListeGroupe()));
         }
+        Map coursMap = new HashMap<String, Cours>();
+        coursMap.putAll(horaire.getMapCours());
+        horaire.setMapCours(coursMap);
     }
 
     public Map getListeHoraireId() {
+        DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+
+        Query q = new Query("Horaire");
+        PreparedQuery pq = datastore.prepare(q);
+
         Map liste = new HashMap();
-        for (Iterator iter = horaires.keySet().iterator(); iter.hasNext(); ) {
-            String id = (String) iter.next();
-            File file = (File) horaires.get(id);
-            liste.put(id, id + " (" + dFormat_.format(new Date(file.lastModified())) + ")");
+        for (Entity result : pq.asIterable()) {
+            String session = (String) result.getProperty("session");
+            String concentration = (String) result.getProperty("concentration");
+            Date date = (Date) result.getProperty("date");
+
+            Map map2 = (Map) liste.get(session);
+            if (map2 == null) {
+                map2 = new HashMap();
+                liste.put(session, map2);
+            }
+
+            map2.put(concentration + " - "+ concentrationMap.get(concentration) + " (" + dFormat_.format(date) + ")", result.getKey().getName());
         }
+
         return liste;
     }
 
-    public Collection getListeCours(String horaireId) {
-        Horaire horaire = new Horaire();
-        if (!coursHoraires.containsKey(horaireId)) {
-            File file = (File) horaires.get(horaireId);
-            try {
-                Reader reader = new InputStreamReader(new FileInputStream(file), "UTF-8");
-                horaire = gson.fromJson(reader, Horaire.class);
-                fixBiDirectional(horaire);
-                reader.close();
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+    public Horaire getHoraire(String horaireId) {
+        DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+
+        Horaire horaire;
+        try {
+            Key key = KeyFactory.createKey("Horaire", horaireId);
+
+            Entity entity = datastore.get(key);
+            Text horaireJSON = (Text) entity.getProperty("horaire");
+            horaire = gson.fromJson(horaireJSON.getValue(), Horaire.class);
+            fixBiDirectionalAndMapImpl(horaire);
+
+        } catch (EntityNotFoundException ex) {
+            horaire = new Horaire();
+
         }
-        return horaire.getListeCours();
+
+        return horaire;
     }
 
     public Planificateur calculateGrilles(Planificateur planif) {

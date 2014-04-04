@@ -20,6 +20,7 @@ public class Planhoraire implements EntryPoint {
 	Panel errorPanel = new StackPanel();
 
 	HorizontalPanel horaireSelectionPanel = new HorizontalPanel();
+    HorizontalPanel horaireDescription = new HorizontalPanel();
 	Panel synthesePanel = new HorizontalPanel();
 	Panel grillePanel = new VerticalPanel();
 	Panel selectionPanel = new VerticalPanel();
@@ -27,7 +28,7 @@ public class Planhoraire implements EntryPoint {
 
 	Map listeHoraires = new HashMap();
 
-	List listeCours = new ArrayList();
+    Horaire horaire = new Horaire();
 	Planificateur planificateur = null;
 
 	private void initServices() {
@@ -61,24 +62,26 @@ public class Planhoraire implements EntryPoint {
 	public void callForCours(final String horaireSelected) {
 		if(horaireSelected != null) {
 			this.setStatus("Récuperation de la liste des cours pour l'horaire '"+horaireSelected+"'...");
-			coursService.getListeCours(horaireSelected, new AsyncCallback(){
-				public void onFailure(Throwable caught) {
-					logError(caught);
-				}
-				public void onSuccess(Object result) {
-					listeCours = (List) result;
-					Collections.sort(listeCours, new CoursComparator());
+			coursService.getHoraire(horaireSelected, new AsyncCallback() {
+                public void onFailure(Throwable caught) {
+                    logError(caught);
+                }
+
+                public void onSuccess(Object result) {
+                    horaire = (Horaire) result;
 //					planificateur.updateConflict(listeCours);
-					setStatus("Récuperation de la liste des cours pour l'horaire '"+horaireSelected+"' terminée.");
-					callForUpdateConflicts();
-				}
-			});
+                    setStatus("Récuperation de la liste des cours pour l'horaire '" + horaireSelected + "' terminée.");
+                    horaireDescription.clear();
+                    horaireDescription.add(new HTML(horaire.getDescription()+" (<a href=\""+horaire.getUrl()+"\" target=\"_blank\">pdf</a>)"));
+                    callForUpdateConflicts();
+                }
+            });
 		}
 	}
 
 	protected Cours getCours(String coursId) {
 		this.setStatus("Recherche du Cours '"+coursId+"' dans l'horaire...");
-		for(Iterator iter = this.listeCours.iterator(); iter.hasNext();) {
+		for(Iterator iter = this.horaire.getListeCours().iterator(); iter.hasNext();) {
 			Cours cours = (Cours) iter.next();
 			if(cours.getId().equals(coursId.toUpperCase())) {
 				return cours;
@@ -135,7 +138,7 @@ public class Planhoraire implements EntryPoint {
 	public void callForUpdateConflicts() {
 		if(planificateur != null) {
 			this.setStatus("Planification en cours...");
-			coursService.updateConflict(planificateur, listeCours, new AsyncCallback(){
+			coursService.updateConflict(planificateur, (List) horaire.getListeCours(), new AsyncCallback(){
 				public void onFailure(Throwable caught) {
 					logError(caught);
 				}
@@ -211,6 +214,8 @@ public class Planhoraire implements EntryPoint {
 		southPanel.setHorizontalAlignment(VerticalPanel.ALIGN_CENTER);
 		southPanel.add(horaireSelectionPanel);
 		southPanel.add(new HTML("<hr/>"));
+        southPanel.add(horaireDescription);
+        southPanel.add(new HTML("<hr/>"));
 		refreshHoraireSelectionPanel();
 
 		rootPanel.add(southPanel, DockPanel.NORTH);
@@ -239,25 +244,47 @@ public class Planhoraire implements EntryPoint {
 		horaireSelectionPanel.clear();
 //		horaireSelectionPanel.setWidth("100%");
 		horaireSelectionPanel.setSpacing(3);
-		horaireSelectionPanel.add(new Label("Horaire :"));
-		ListBox horaireSelect = new ListBox();
-		horaireSelect.addItem("Sélectionnez un horaire...");
-		for(Iterator iter = this.listeHoraires.keySet().iterator(); iter.hasNext();) {
-			String horaireId = (String) iter.next();
-			String horaireLabel = (String) listeHoraires.get(horaireId);
-			horaireSelect.addItem(horaireLabel);
-			horaireSelect.setValue(horaireSelect.getItemCount()-1, horaireId);
-		}
-		horaireSelect.addChangeListener(new ChangeListener(){
-			public void onChange(Widget sender) {
-				ListBox horaireSelect = (ListBox) sender;
-				if(horaireSelect.getSelectedIndex() > 0) {
-					String horaireSelected = horaireSelect.getValue(horaireSelect.getSelectedIndex());
-					callForCours(horaireSelected);
-				}
-			}
-		});
-		horaireSelectionPanel.add(horaireSelect);
+
+        horaireSelectionPanel.add(new Label("Session :"));
+        ListBox sessionSelect = new ListBox();
+        sessionSelect.addItem("Sélectionnez une session...");
+        horaireSelectionPanel.add(sessionSelect);
+
+        horaireSelectionPanel.add(new Label("Horaire :"));
+        final ListBox horaireSelect = new ListBox();
+        horaireSelectionPanel.add(horaireSelect);
+
+        for(Iterator iter = this.listeHoraires.keySet().iterator(); iter.hasNext();) {
+            String session = (String) iter.next();
+            sessionSelect.addItem(session);
+            sessionSelect.setValue(sessionSelect.getItemCount()-1, session);
+        }
+        sessionSelect.addChangeListener(new ChangeListener() {
+            public void onChange(Widget sender) {
+                ListBox sessionSelect = (ListBox) sender;
+                if (sessionSelect.getSelectedIndex() > 0) {
+                    String sessionSelected = sessionSelect.getValue(sessionSelect.getSelectedIndex());
+                    horaireSelect.clear();
+                    horaireSelect.addItem("Sélectionnez un horaire...");
+                    for(Iterator iter = ((Map) listeHoraires.get(sessionSelected)).keySet().iterator(); iter.hasNext();) {
+                        String horaireLabel = (String) iter.next();
+                        String horaireId = (String) ((Map) listeHoraires.get(sessionSelected)).get(horaireLabel);
+                        horaireSelect.addItem(horaireLabel);
+                        horaireSelect.setValue(horaireSelect.getItemCount()-1, horaireId);
+                    }
+                }
+            }
+        });
+
+		horaireSelect.addChangeListener(new ChangeListener() {
+            public void onChange(Widget sender) {
+                ListBox horaireSelect = (ListBox) sender;
+                if (horaireSelect.getSelectedIndex() > 0) {
+                    String horaireSelected = horaireSelect.getValue(horaireSelect.getSelectedIndex());
+                    callForCours(horaireSelected);
+                }
+            }
+        });
 	}
 	
 	protected void refreshSynthesePanel() {
@@ -411,7 +438,7 @@ public class Planhoraire implements EntryPoint {
 		tab.getCellFormatter().addStyleName(currentRow, 1, "tableheader");
 		tab.getColumnFormatter().setWidth(1, "400");
 		tab.getColumnFormatter().setWidth(2, "10%");
-		for(Iterator iter = listeCours.iterator(); iter.hasNext();) {
+		for(Iterator iter = horaire.getListeCours().iterator(); iter.hasNext();) {
 			Cours cours = (Cours) iter.next();
 			currentRow = tab.getRowCount();
 			String style = "coursachoisir";

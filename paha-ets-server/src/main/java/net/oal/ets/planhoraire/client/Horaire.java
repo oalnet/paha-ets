@@ -1,4 +1,4 @@
-package net.oal.ets.planhoraire.model;
+package net.oal.ets.planhoraire.client;
 
 import com.google.gwt.user.client.rpc.IsSerializable;
 import net.oal.ets.planhoraire.client.Cours;
@@ -8,33 +8,59 @@ import net.oal.ets.planhoraire.client.GroupeCours;
 import java.util.*;
 
 public class Horaire implements IsSerializable {
-	private String id;
+    private String session;
+    private String concentration;
+
 	private String description;
 	private String url;
 	private String date;
 	private Map<String, Cours> listeCours;
 
 	public Horaire() {
-		this.id = "---";
+		this.session = "---";
+        this.concentration = "---";
 		this.description = "inconnue";
 		this.listeCours = new HashMap<String, Cours>();
 	}
 
-	public String getDescription() {
-		return description;
-	}
-	public void setDescription(String description) {
-		this.description = description;
+	public String getId() {
+		return session.replaceAll(" ", "_")+"-"+concentration;
 	}
 
-	public String getId() {
-		return id;
-	}
-	public void setId(String id) {
-//		GestionnaireHoraire.getInstance().remove(this);
-		this.id = id;
-//		GestionnaireHoraire.getInstance().add(this);
-	}
+    public String getSession() {
+        return session;
+    }
+    public void setSession(String session) {
+        this.session = session;
+    }
+
+    public String getConcentration() {
+        return concentration;
+    }
+    public void setConcentration(String concentration) {
+        this.concentration = concentration;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getDate() {
+        return date;
+    }
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+    public void setUrl(String url) {
+        this.url = url;
+    }
 
 	public void addAll(Collection<Cours> listeCours) {
 		for(Iterator iter = listeCours.iterator(); iter.hasNext();) {
@@ -66,7 +92,7 @@ public class Horaire implements IsSerializable {
 	}
 
 	public String toString() {
-		return id+" ("+this.getDate()+")";
+		return getId()+" ("+this.getDate()+")";
 	}
 
 	public Collection<Cours> getListeCours() {
@@ -76,22 +102,6 @@ public class Horaire implements IsSerializable {
 		return l;
 	}
 
-	public String getDate() {
-		return date;
-	}
-
-	public void setDate(String date) {
-		this.date = date;
-	}
-
-	public String getUrl() {
-		return url;
-	}
-
-	public void setUrl(String url) {
-		this.url = url;
-	}
-	
 	public Map<String, Cours> getMapCours() { return this.listeCours; }
 	public void setMapCours(Map<String, Cours> listeCours) { this.listeCours = listeCours; }
 }
